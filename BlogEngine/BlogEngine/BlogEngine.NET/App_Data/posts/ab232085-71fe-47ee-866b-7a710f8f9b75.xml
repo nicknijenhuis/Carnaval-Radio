@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>admin</author>
+  <title>Gastenboek</title>
+  <description />
+  <content>&lt;p&gt;Laat ons een berichtje achter!&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2000-01-01 00:00:00</pubDate>
+  <lastModified>2012-06-21 14:02:01</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>Gastenboek</slug>
+  <tags>
+    <tag>Gastenboek</tag>
+  </tags>
+  <comments>
+    <comment id="8b7e5b97-6667-4f00-bfac-bed16549ecf2" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="False">
+      <date>2012-06-21 09:48:31</date>
+      <author>admin</author>
+      <email>carnavalradio@gmail.com</email>
+      <country>nl</country>
+      <ip>::1</ip>
+      <moderatedby>admin</moderatedby>
+      <avatar />
+      <content>hallo</content>
+    </comment>
+    <comment id="e18373f8-b8c1-48d4-9e5c-0468b9fd4f29" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="False">
+      <date>2012-06-21 09:49:37</date>
+      <author>Nick</author>
+      <email>nicknijenhuis@gmail.com</email>
+      <country>nl</country>
+      <ip>::1</ip>
+      <moderatedby>Rule:white list</moderatedby>
+      <avatar />
+      <content>Tester</content>
+    </comment>
+  </comments>
+  <categories />
+  <notifications />
+</post>
