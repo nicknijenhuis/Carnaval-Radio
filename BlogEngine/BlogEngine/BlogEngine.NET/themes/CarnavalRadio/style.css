@@ -52,7 +52,8 @@ h2 {
 
 a {
 	text-decoration: none;
-	color: #5C80B1;
+	color: #009e1e;
+	
 }
 
 a[href^="\/file.axd"] {
@@ -90,7 +91,7 @@ img {
 #page-footer
 {
     clear:both;
-    height:100px;
+    height:300px;
     width:940px;
     /*todo*/
     background-color:black;
@@ -445,6 +446,17 @@ div.widget a.edit, div.widget a.move, div.widget a.delete{
     margin-bottom: 5px;
 }
 
+
+#page-footer div.widgetzone
+{
+    width:940px;
+}
+
+#page-footer div.widget
+{
+    float:left;
+}
+
 /*----------------------------
 					 Blogroll
 ----------------------------*/
@@ -473,7 +485,6 @@ div.widget a.edit, div.widget a.move, div.widget a.delete{
 div.post, .mceContentBody 
 {
 	padding: 3px 10px;
-	margin-bottom: 20px;
 	background-color: white;
 	line-height: 125%;
 }
@@ -501,6 +512,8 @@ div.post .pubDate {
 	color: #666666;
 	font-size: 95%;
 	float: right;
+	font-weight:bold;
+	margin-top:5px;
 }
 
 div.post .text 
@@ -1178,6 +1191,10 @@ ul.recentComments li a.postTitle{
 .comment {
     padding: 5px;
 }
+#commentCompose
+{
+    margin-top:5px;
+}
 
 /* nested comments */
 
@@ -1288,15 +1305,18 @@ input[type="text"], input[type="select"] {
     padding: 3px;
 }
 
-input[type="submit"], input[type="button"], input[type="file"] {
+input[type="submit"], input[type="button"], input[type="file"], a.aButton {
     background-image: url('img/button.png');
+
     background-position:bottom;
 	display:block;
 	background-color:transparent;
 	border:none;
-	background-repeat:repeat-x;
+    background-repeat:no-repeat;
 	font-family:arial, sans-serif;
-	text-align:center;
+    line-height:38px;
+    padding-right:20px;
+	text-align:right;
 	letter-spacing:0.5pt;
 	cursor:pointer;
 	color:white;
@@ -1305,7 +1325,10 @@ input[type="submit"], input[type="button"], input[type="file"] {
 	height:38px;
 }
 
-input[type="submit"]:hover, input[type="button"]:hover {
+input[type="submit"]:hover, input[type="button"]:hover, a.aButton:hover
+{
+    color:#009e1e;
+    text-decoration:none;
 }
 
 #searchcomments {
@@ -1413,6 +1436,17 @@ div.albums ul li img
 
 div#GuestbookView
 {
+    position:relative;
     width:600px;
     padding:10px;
+}
+
+a.aButton
+{
+    position:absolute;
+    top:-85px;
+    right:0;
+    font-size:10pt;
+    padding-right:40px;
+    display:block;
 }

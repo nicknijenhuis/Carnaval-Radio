@@ -70,7 +70,7 @@
   <div id="container">
           <div id="header">
             <div style="display:none;">
-                <p><a href="<%=Utils.AbsoluteWebRoot %>"><%=BlogSettings.Instance.Name %></a></p>
+                <p><a id="CRwebroot" href="<%=Utils.AbsoluteWebRoot %>"><%=BlogSettings.Instance.Name %></a></p>
                 <span><%=BlogSettings.Instance.Description %></span>
             </div>
             <div class="logo">
@@ -146,7 +146,7 @@
               <div style="clear: both; display: block"></div>
           </div>
           <div id="page-footer">
-            <p>test</p>
+            <blog:WidgetZone runat="server" ID="Footer" ZoneName="Footer"></blog:WidgetZone>
           </div>       
   </div>
   </form>

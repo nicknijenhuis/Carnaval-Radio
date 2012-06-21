@@ -79,7 +79,7 @@
 		<img src="<%=Utils.RelativeWebRoot %>pics/ajax-loader.gif" style="display:none" alt="Loading" />  
 	  </div>
 	  
-	  <p>
+	  <p style="display:none;">
 	      <input type="checkbox" id="cbNotify" class="cmnt-frm-notify" style="width: auto" tabindex="8" />
 	      <label for="cbNotify" style="width:auto;float:none;display:inline;padding-left:5px"><%=Resources.labels.notifyOnNewComments %></label>
       </p>
@@ -149,4 +149,4 @@ function registerCommentBox(){
     }
 </script>
 
-<asp:label runat="server" id="lbCommentsDisabled" visible="false"><%=Resources.labels.commentsAreClosed %></asp:label>
+<!--<asp:label runat="server" id="lbCommentsDisabled" visible="false"><%=Resources.labels.commentsAreClosed %></asp:label>-->
