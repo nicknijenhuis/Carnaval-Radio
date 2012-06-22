@@ -4,4 +4,8 @@
     <name>test</name>
     <message>test</message>
   </shout>
+  <shout id="2">
+    <name>123</name>
+    <message>123123</message>
+  </shout>
 </shouts>

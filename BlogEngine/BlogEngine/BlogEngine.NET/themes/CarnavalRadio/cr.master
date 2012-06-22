@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head runat="server" profile="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="icon" href="<%# Utils.AbsoluteWebRoot %>/themes/CarnavalRadio/img/fav32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="<%# Utils.AbsoluteWebRoot %>/themes/CarnavalRadio/img/fav64.png" sizes="64x64" type="image/png">
+    <link rel="icon" href="themes/CarnavalRadio/img/fav32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="themes/CarnavalRadio/img/fav64.png" sizes="64x64" type="image/png">
 
     <asp:ContentPlaceHolder ID="cphHeader" runat="server" />
     <asp:Literal ID="StylesAndScripts" runat="server" />
@@ -15,8 +15,8 @@
             jQuery('ul.head-menu').superfish();
         });
 
-        function OpenStreamPopup() { 
-            return window.open('audioplayer.aspx', 'Carnaval Radio','resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=450,height=380');
+        function OpenStreamPopup() {
+            return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'Carnaval Radio', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=450,height=380');
         }
         function onAfter() {
             $('#sponsorlink').html(this.href);
@@ -98,8 +98,12 @@
 
    
             <ul class="head-menu">
-              <li><a href="<%=Utils.AbsoluteWebRoot %>" rel="home"><%=Resources.labels.home %></a></li>
-              <asp:Literal runat="server" ID="litMenu" />
+                <li><a href="<%=Utils.AbsoluteWebRoot %>" rel="home"><%=Resources.labels.home %></a>
+                    <ul>
+                        <li><a href="<%=Utils.AbsoluteWebRoot %>nieuws.aspx" rel="home">Nieuws</a></li>
+                    </ul>
+                 </li>
+                <asp:Literal runat="server" ID="litMenu" />
                 <li><a href="<%=Utils.AbsoluteWebRoot %>sponsoren.aspx">
                     <%=Resources.labels.sponsoren %></a></li>
                 <li><a href="<%=Utils.AbsoluteWebRoot %>gastenboek.aspx">

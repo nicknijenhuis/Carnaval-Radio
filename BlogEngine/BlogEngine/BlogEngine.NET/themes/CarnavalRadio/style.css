@@ -493,7 +493,7 @@ div.post h1, .mceContentBody h1 {
 	margin: 5px 0 0 0;
 
 }
-div.post h1 a.taggedlink
+div.post h1 a.taggedlink, div#page h1
 {
     font-size:28pt;
     line-height:28pt;
@@ -1449,4 +1449,48 @@ a.aButton
     font-size:10pt;
     padding-right:40px;
     display:block;
+}
+
+
+/*----------------------------
+		Widget action buttons
+----------------------------*/
+.widgetImg {
+    width: 16px;
+    height: 16px;
+    display:inline-block;
+}
+.imgDelete {
+    background-image:url('img/admin/action-delete-small-lt.png');
+}
+.imgDelete:hover {
+    background-image:url('img/admin/action-delete-small.png');
+}
+.imgMove {
+    background-image:url('img/admin/action-tools-small-lt.png');
+}
+.imgMove:hover {
+    background-image:url('img/admin/action-tools-small.png');
+}
+.imgEdit {
+    background-image:url('img/admin/action-edit-small-lt.png');
+}
+.imgEdit:hover {
+    background-image:url('img/admin/action-edit-small.png');
+}
+
+.widget a:hover { text-decoration: none; }
+
+#comment-form p { margin: 1px; display: inline-table; width: 100%; }
+
+div.BreadCrumb
+{
+   height:30px;
+   margin-bottom:10px;
+   padding-left:30px;
+}
+div.BreadCrumb a
+{
+    height:30px;
+    line-height:30px;
 }

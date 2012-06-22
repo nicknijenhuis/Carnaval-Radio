@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <page>
-  <title>Informatie</title>
+  <title>Luisteren</title>
   <description />
-  <content>&lt;p&gt;Test informatie&lt;/p&gt;</content>
+  <content>&lt;p&gt;Luisterpagina&lt;/p&gt;</content>
   <keywords />
-  <slug>Informatie</slug>
+  <slug>Luisteren</slug>
   <parent>00000000-0000-0000-0000-000000000000</parent>
   <isfrontpage>False</isfrontpage>
   <showinlist>True</showinlist>
   <ispublished>True</ispublished>
-  <isdeleted>True</isdeleted>
-  <datecreated>2012-06-08 12:34:16</datecreated>
-  <datemodified>2012-06-22 11:29:26</datemodified>
+  <isdeleted>False</isdeleted>
+  <datecreated>2012-06-22 11:29:54</datecreated>
+  <datemodified>2012-06-22 11:29:54</datemodified>
 </page>
