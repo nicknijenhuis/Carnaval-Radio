@@ -68,17 +68,3 @@ function download(file) {
         window.open(file, 'Download');
     }
 }
-
-setInterval(loadRecentSongs, 60000);
-
-function loadRecentSongs() {
-    $.ajax({
-        type: 'POST',
-        contentType: 'application/json',
-        dataType: 'json',
-        url: 'RecentSongsService.asmx/RecentSongs',
-        success: function (data) {
-            alert(data.d[0].song);
-        }
-    });
-}

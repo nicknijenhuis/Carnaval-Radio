@@ -59,6 +59,26 @@
             });
 
  </script>
+     <script type="text/javascript">
+
+      
+      $(document).ready(function () {
+          setInterval(loadRecentSongs, 60000);
+          function loadRecentSongs() {
+              $.ajax({
+                  type: 'POST',
+                  contentType: 'application/json',
+                  dataType: 'json',
+                  url: $('a#CRwebroot').attr('href') + '/RecentSongsService.asmx/RecentSongs',
+                  success: function (data) {
+                      $('#currentsong').html(data.d[0].song);
+                  }
+              });
+          }
+         loadRecentSongs();
+     });
+    
+    </script>
     </asp:Literal>
 </head>
 <body>
@@ -87,7 +107,7 @@
             <div class="nuopderadio_box" onclick="OpenStreamPopup();">
                 <div class="text">
                     <marquee scrollamount="2" width="279" height="30"> 
-                        <a id="cc_stream_info_song">Huidig nummer laden...</a>
+                        <div id="currentsong"></div>
                     </marquee>
                 </div>
             </div>
@@ -151,12 +171,7 @@
           </div>       
   </div>
   </form>
-
-        <script language="javascript" type="text/javascript" src="http://euro1.reliastream.com/system/streaminfo.js"></script>
-        <script language="javascript" type="text/javascript" src="http://euro1.reliastream.com/js.php/carradio/streaminfo/rnd0"></script>
-        <script language="javascript" type="text/javascript" src="http://euro1.reliastream.com/system/recenttracks.js"></script>
-        <script language="javascript" type="text/javascript" src="http://euro1.reliastream.com/js.php/carradio/recenttracks/rnd0"></script>
-    
+  
     
     <div style="display:none;">
         <div class="login">
