@@ -4,7 +4,7 @@
 <html>
 <head runat="server">
     <title>Carnaval Radio Audio Player</title>
-    <script src="Scripts/jquery.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="Scripts/AudioPlayer.js" type="text/javascript"></script>
 </head>
 <body>
@@ -15,7 +15,5 @@
         <img src="pics/audioplayer/winamp.png" alt="Winamp" onclick="download('<%=streamFiles[0] %>');" />
         <img src="pics/audioplayer/wmp.png" alt="Windows Media Player" onclick="download('<%=streamFiles[1] %>');" />
     </div>
-    <div id="cc_recent_tracks"></div>
-    <script language="javascript" type="text/javascript" src="http://euro1.reliastream.com/js.php/carradio/recenttracks/rnd0"></script>
 </body>
 </html>
