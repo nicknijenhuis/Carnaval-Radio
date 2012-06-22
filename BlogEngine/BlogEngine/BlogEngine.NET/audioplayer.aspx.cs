@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using BlogEngine.Core;
 using BlogEngine.Core.Web.Extensions;
 
 public partial class widgets_AudioPlayer_audioplayer : System.Web.UI.Page
@@ -13,6 +15,8 @@ public partial class widgets_AudioPlayer_audioplayer : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        RegisterStyleSheetInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/styles/player.css"));
+
         streamFiles = new string[2];
         bool s = ExtensionManager.Extensions.ContainsKey("AudioStream");
         if (s)
@@ -36,5 +40,30 @@ public partial class widgets_AudioPlayer_audioplayer : System.Web.UI.Page
         }
         else
             stream = "http://50.7.241.10:8021/;";
+
+        var sbSwitchingSponsors = new StringBuilder();
+
+        foreach (var sponsor in CRSponsor.GetListOnlyActive().Where(i => i.PlayerSwitch))
+        {
+            sbSwitchingSponsors.AppendFormat("<img src=\"{0}\" alt=\"{1}\"></img>", sponsor.LogoURL, sponsor.Name);
+        }
+
+        litSwitchingSponsors.Text = sbSwitchingSponsors.ToString();
+    }
+
+    /// <summary>
+    /// Registers the client script include.
+    /// </summary>
+    /// <param name="src">The file name.</param>
+    private void RegisterStyleSheetInclude(string src)
+    {
+        var si = new System.Web.UI.HtmlControls.HtmlGenericControl();
+        si.TagName = "link";
+        si.Attributes.Add("type", "text/css");
+        si.Attributes.Add("rel", "stylesheet");
+        si.Attributes.Add("media", "screen");
+        si.Attributes.Add("href", src);
+        this.Page.Header.Controls.Add(si);
+        this.Page.Header.Controls.Add(new LiteralControl("\n"));
     }
 }
