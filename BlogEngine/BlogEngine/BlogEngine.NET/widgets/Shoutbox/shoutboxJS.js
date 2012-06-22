@@ -14,9 +14,10 @@ function loadShouts() {
             $('#shouts').html("");
             $(xml).find('shout').slice(-20).each(function () {
                 var id = $(this).attr('id');
+                var datetime = $(this).find('datetime').text();
                 var name = $(this).find('name').text();
                 var msg = $(this).find('message').text();
-                $('<div class="shout" id="shout_' + id + '"></div>').html(name + ': ' + msg).appendTo('#shouts');
+                $('<div class="shout" id="shout_' + id + '"></div>').html(name + ': ' + msg + '<div class="shoutDateTime">' + datetime + '</div>').appendTo('#shouts');
             })
         }
     });
