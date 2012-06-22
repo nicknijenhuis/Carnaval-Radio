@@ -43,9 +43,29 @@ public partial class widgets_AudioPlayer_audioplayer : System.Web.UI.Page
 
         var sbSwitchingSponsors = new StringBuilder();
 
-        foreach (var sponsor in CRSponsor.GetListOnlyActive().Where(i => i.PlayerSwitch))
+        var listOfSponsors = CRSponsor.GetListOnlyActive();
+
+        bool sponsorLeft = false;
+        bool sponsorRight = false;
+
+        foreach (var sponsor in listOfSponsors.Where(i => i.PlayerSwitch))
         {
             sbSwitchingSponsors.AppendFormat("<img src=\"{0}\" alt=\"{1}\"></img>", sponsor.LogoURL, sponsor.Name);
+        }
+        foreach (var sponsor in listOfSponsors.Where(i => i.PlayerSolid).Take(2))
+        {
+            if(!sponsorLeft)
+            {
+                sponsorTopLeft.ImageUrl = sponsor.LogoURL;
+                sponsorTopLeft.AlternateText = sponsor.Name;
+                sponsorLeft = sponsor.HasLogo;
+            }else if (!sponsorRight)
+            {
+                sponsorTopRight.ImageUrl = sponsor.LogoURL;
+                sponsorTopRight.AlternateText = sponsor.Name;
+                sponsorRight = sponsor.HasLogo;
+            }
+            
         }
 
         litSwitchingSponsors.Text = sbSwitchingSponsors.ToString();

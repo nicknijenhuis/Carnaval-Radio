@@ -13,6 +13,31 @@ body
     border-right:2px solid #7e7f7f;
 }
 
+div#player-container
+{
+    position:absolute;
+    top:0;
+    left:300px;
+    width:200px;
+    height:200px;
+        border-left:solid 3px #54BB3D; 
+        border-bottom:solid 3px #54BB3D; 
+            border-right:solid 3px #54BB3D; 
+    background-image: url('../img/player/bgGradientBottom.png');
+-webkit-border-bottom-right-radius: 15px;
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-bottomright: 15px;
+-moz-border-radius-bottomleft: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+div#player
+{
+    position:absolute;
+    top:100px;
+    left:0;
+}
+
 div#player-content
 {
     position:relative;
@@ -35,7 +60,6 @@ div#player-footer
     border-top:2px solid #7e7f7f;
     background-image: url('../img/player/bgGradientBottom.png');
     background-repeat:repeat-x;
-    background-color:Blue;
     height:118px;
 
 }
@@ -87,6 +111,7 @@ div#player-content div#artist-right
 
 div#player-content div#artist-above-player
 {
+    display:none;
     background-image: url('../img/player/artist-above-player.png');
     position:absolute;
     width:215px;
@@ -94,3 +119,55 @@ div#player-content div#artist-above-player
     top:0;
     left:300px;
 }
+
+div#player-content div#sponsor-top-left
+{
+    position:absolute;
+    top:0;
+    left:0;
+        width:224px;
+    height:145px;
+        border-bottom:solid 3px #54BB3D;
+    border-right:solid 3px #54BB3D;
+        -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+div#player-content div#sponsor-top-left img
+{
+    width:224px;
+    height:145px;
+    border:0;
+            -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+div#player-content div#sponsor-top-right
+{
+    position:absolute;
+    top:0;
+    right:0;
+        width:224px;
+    height:145px;
+        border-bottom:solid 3px #54BB3D;
+    border-left:solid 3px #54BB3D;
+        -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+div#player-content div#sponsor-top-right img
+{
+    width:224px;
+    height:145px;
+    border:0;
+            -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+

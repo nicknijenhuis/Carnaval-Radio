@@ -7,18 +7,41 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>    
     <script src="Scripts/AudioPlayer.js" type="text/javascript"></script>
     <link href="themes/CarnavalRadio/styles/smoothDivScroll.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        setInterval(loadRecentSongs, 60000);
+
+        function loadRecentSongs() {
+            $.ajax({
+                type: 'POST',
+                contentType: 'application/json',
+                dataType: 'json',
+                url: 'RecentSongsService.asmx/RecentSongs',
+                success: function (data) {
+                    alert(data.d[0].song);
+                }
+            });
+        }
+        loadRecentSongs();
+    
+    </script>
 </head>
 <body>
 <div id="player-content">
-        <div id="sponsor-top-right"></div>
-        <div id="sponsor-top-left"></div>
+        <div id="sponsor-top-left"><asp:Image runat="server" ID="sponsorTopLeft" /></div>
+        <div id="sponsor-top-right"><asp:Image runat="server" ID="sponsorTopRight" /></div>
+
         
-        <div id="player"></div>
+        <div id="player-container">
+            <div id="player"></div>
+        </div>
         <script type="text/javascript">$('player').ready(loadStream('<%=stream %>'));</script>
+        
+        <div style="display:none;">
         <img src="pics/audioplayer/download.png" id="dlimg" alt="Download" onclick="toggleDownload();" />
         <div id="dltab" style="display:none;">
             <img src="pics/audioplayer/winamp.png" alt="Winamp" onclick="download('<%=streamFiles[0] %>');" />
             <img src="pics/audioplayer/wmp.png" alt="Windows Media Player" onclick="download('<%=streamFiles[1] %>');" />
+        </div>
         </div>
 
     <div id="artist-left"></div>
