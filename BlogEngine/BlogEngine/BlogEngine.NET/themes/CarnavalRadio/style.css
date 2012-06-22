@@ -1367,21 +1367,26 @@ div.SponsorTypes ul
     list-style-type:none;
 }
 
-div.SponsorTypes ul li a img { border:solid 1px #ccc; }
+div.SponsorTypes ul li a img      
+{
+    border:1px solid #fe9f10;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(extra/border-radius.htc); }
 
 div.SponsorTypes ul li
 {
-    margin-right:5px;
     float:left;
 }
-
-div.SponsorTypes ul li:last-child
-{ margin:0; }
 
 div.Hoofdsponsor ul li {margin-right:15px;}
 div.Sponsor ul li {margin-right:7.5px;}
 div.Subsponsor ul li{margin-right:5px;}
 div.ClubVan50 ul li{margin-right:3.75px;}
+
+div.SponsorTypes ul li:last-child
+{ margin:0; }
 
 /*----------------------------
 					 Foto's
