@@ -16,7 +16,7 @@
         });
 
         function OpenStreamPopup() {
-            return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'Carnaval Radio', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=450,height=380');
+            return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'Carnaval Radio', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=800,height=500');
         }
         function onAfter() {
             $('#sponsorlink').html(this.href);

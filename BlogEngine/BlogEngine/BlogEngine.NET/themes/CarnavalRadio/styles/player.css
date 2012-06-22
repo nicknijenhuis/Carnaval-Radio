@@ -1,0 +1,173 @@
+﻿*
+{
+    margin:0;
+    padding:0;
+}
+
+body 
+{
+    width:800px;
+    height:500px;
+    overflow:hidden;
+    border-bottom:2px solid #7e7f7f;
+    border-right:2px solid #7e7f7f;
+}
+
+div#player-container
+{
+    position:absolute;
+    top:0;
+    left:300px;
+    width:200px;
+    height:200px;
+        border-left:solid 3px #54BB3D; 
+        border-bottom:solid 3px #54BB3D; 
+            border-right:solid 3px #54BB3D; 
+    background-image: url('../img/player/bgGradientBottom.png');
+-webkit-border-bottom-right-radius: 15px;
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-bottomright: 15px;
+-moz-border-radius-bottomleft: 15px;
+border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+div#player
+{
+    position:absolute;
+    top:100px;
+    left:0;
+}
+
+div#player-content
+{
+    position:relative;
+    background-image: url('../img/player/bgGradient.png');
+    background-repeat:repeat-x;
+    background-color:white;
+    height:380px;
+}
+
+div#player-footer div#sponsors
+{
+    width:100%;
+    position: relative;
+}
+
+div#player-footer
+{
+    width:800px;
+    padding-left:5px;
+    border-top:2px solid #7e7f7f;
+    background-image: url('../img/player/bgGradientBottom.png');
+    background-repeat:repeat-x;
+    height:118px;
+
+}
+div#player-footer img
+{
+    position: relative;
+	float: left;
+	margin: 12px 6px;
+	padding: 0;
+    border-style:solid;
+    border-color :#54BB3D;
+    border-width:3px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    width: 145px;
+    height:94px;
+}
+
+div#player-content div#logo
+{
+    background-image: url('../img/logo.png');
+    position:absolute;
+    bottom:20px;
+    left:130px;
+    width:513px;
+    height:129px;
+}
+
+div#player-content div#artist-left
+{
+    background-image: url('../img/player/artist-left.png');
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:162px;
+    height:175px;
+}
+
+div#player-content div#artist-right
+{
+    background-image: url('../img/player/artist-right.png');
+    position:absolute;
+    width:194px;
+    height:160px;
+    bottom:0;
+    right:0;
+}
+
+div#player-content div#artist-above-player
+{
+    display:none;
+    background-image: url('../img/player/artist-above-player.png');
+    position:absolute;
+    width:215px;
+    height:153px;
+    top:0;
+    left:300px;
+}
+
+div#player-content div#sponsor-top-left
+{
+    position:absolute;
+    top:0;
+    left:0;
+        width:224px;
+    height:145px;
+        border-bottom:solid 3px #54BB3D;
+    border-right:solid 3px #54BB3D;
+        -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+div#player-content div#sponsor-top-left img
+{
+    width:224px;
+    height:145px;
+    border:0;
+            -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+div#player-content div#sponsor-top-right
+{
+    position:absolute;
+    top:0;
+    right:0;
+        width:224px;
+    height:145px;
+        border-bottom:solid 3px #54BB3D;
+    border-left:solid 3px #54BB3D;
+        -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+div#player-content div#sponsor-top-right img
+{
+    width:224px;
+    height:145px;
+    border:0;
+            -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+
