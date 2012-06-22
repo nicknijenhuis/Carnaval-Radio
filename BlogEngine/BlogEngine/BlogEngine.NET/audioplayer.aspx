@@ -17,7 +17,7 @@
                 dataType: 'json',
                 url: 'RecentSongsService.asmx/RecentSongs',
                 success: function (data) {
-                    alert(data.d[0].song);
+                    $('#currentsong').html(data.d[0].song);
                 }
             });
         }
@@ -32,6 +32,8 @@
 
         
         <div id="player-container">
+            <p>Huidig nummer:</p>
+            <p id="currentsong"></p>
             <div id="player"></div>
         </div>
         <script type="text/javascript">$('player').ready(loadStream('<%=stream %>'));</script>
