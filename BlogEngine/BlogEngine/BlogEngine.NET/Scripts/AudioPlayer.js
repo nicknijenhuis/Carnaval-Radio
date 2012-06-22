@@ -68,3 +68,39 @@ function download(file) {
         window.open(file, 'Download');
     }
 }
+
+function cc_recenttracks_add(ncon, track, first) {
+    var ntrk = document.createElement('div');
+    ntrk.className = 'cctrack';
+    var ncov = document.createElement('div');
+    ncov.className = 'cccover';
+    var nimg = document.createElement('img');
+    nimg.src = track.image;
+    nimg.align = 'left';
+    nimg.width = 50;
+    nimg.height = 43;
+    ncov.appendChild(nimg);
+    ntrk.appendChild(ncov);
+    var ntit = document.createElement('div');
+    ntit.className = 'cctitle' + (first ? ' ccnowplaying' : '');
+    ntit.innerHTML = track.title; ntrk.appendChild(ntit);
+    var nart = document.createElement('div');
+    nart.className = 'ccartist';
+    nart.innerHTML = track.artist;
+    ntrk.appendChild(nart);
+    if (track.url) {
+        var npri = document.createElement('div');
+        npri.innerHTML = "<a class='ccbuy' href='" + track.url + "'>Buy this album</a>"
+        ntrk.appendChild(npri);
+    }
+    ncon.appendChild(ntrk);
+}
+function cc_recenttracks_get_callback(tracks, selfurl) {
+    var ccrte = document.getElementById('cc_recent_tracks');
+    if (!ccrte)
+        return;
+    ccrte.innerHTML = '';
+    for (var i = 0; i < tracks.length; i++) {
+        cc_recenttracks_add(ccrte, tracks[i], i == 0);
+    }
+}

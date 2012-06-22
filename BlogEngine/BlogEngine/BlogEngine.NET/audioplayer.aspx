@@ -15,5 +15,7 @@
         <img src="pics/audioplayer/winamp.png" alt="Winamp" onclick="download('<%=streamFiles[0] %>');" />
         <img src="pics/audioplayer/wmp.png" alt="Windows Media Player" onclick="download('<%=streamFiles[1] %>');" />
     </div>
+    <div id="cc_recent_tracks"></div>
+    <script language="javascript" type="text/javascript" src="http://euro1.reliastream.com/js.php/carradio/recenttracks/rnd0"></script>
 </body>
 </html>
