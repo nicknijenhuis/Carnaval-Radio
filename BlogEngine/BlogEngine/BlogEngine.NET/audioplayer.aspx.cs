@@ -47,7 +47,8 @@ public partial class widgets_AudioPlayer_audioplayer : System.Web.UI.Page
 
         bool sponsorLeft = false;
         bool sponsorRight = false;
-
+                string path = string.Format("{0}themes/{1}/img/logo.png", Utils.AbsoluteWebRoot, BlogSettings.Instance.GetThemeWithAdjustments(null));
+        sponsorTopLeft.ImageUrl = sponsorTopRight.ImageUrl = path;
         foreach (var sponsor in listOfSponsors.Where(i => i.PlayerSwitch))
         {
             sbSwitchingSponsors.AppendFormat("<img src=\"{0}\" alt=\"{1}\"></img>", sponsor.LogoURL, sponsor.Name);
