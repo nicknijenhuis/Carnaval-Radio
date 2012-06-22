@@ -14,9 +14,8 @@
         jQuery(function () {           
             jQuery('ul.head-menu').superfish();
         });
-
         function OpenStreamPopup() {
-            return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'Carnaval Radio', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=800,height=500');
+            return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'Carnaval Radio', 'width=800,height=500');
         }
         function onAfter() {
             $('#sponsorlink').html(this.href);
@@ -88,7 +87,7 @@
             <div class="nuopderadio_box" onclick="OpenStreamPopup();">
                 <div class="text">
                     <marquee scrollamount="2" width="279" height="30"> 
-			            <a id="cc_stream_info_song">Huidig nummer laden...</a>
+                        <a id="cc_stream_info_song">Huidig nummer laden...</a>
                     </marquee>
                 </div>
             </div>
@@ -117,19 +116,17 @@
                  { %>
               <li><blog:MobileThemeSwitch runat="server" /></li>
               <%
-                 }
-              %>
-
+                 } %>
             </ul>
               <ul>
-                  <li><a href="http://www.youtube.com">
-                      <img src="<%=Utils.AbsoluteWebRoot %>themes/CarnavalRadio/img/social/yt.png" alt="Carnaval Radio op YouTube!" /></a></li>
-                  <li><a href="http://www.hyves.nl">
-                      <img src="<%=Utils.AbsoluteWebRoot %>themes/CarnavalRadio/img/social/hy.png" alt="Carnaval Radio op Hyves!" /></a></li>
-                  <li><a href="http://www.facebook.com">
-                      <img src="<%=Utils.AbsoluteWebRoot %>themes/CarnavalRadio/img/social/fb.png" alt="Carnaval Radio op Facebook!" /></a></li>
-                  <li><a href="http://www.twitter.com">
-                      <img src="<%=Utils.AbsoluteWebRoot %>themes/CarnavalRadio/img/social/tw.png" alt="Carnaval Radio op Twitter!" /></a></li>
+                  <li><a href="http://www.youtube.com/carnavalsradio" target="_blank">
+                    <img src="<%=Utils.AbsoluteWebRoot %>themes/CarnavalRadio/img/social/yt.png" alt="Carnaval Radio op YouTube!" /></a></li>
+                <li><a href="http://carnavalradio.hyves.nl" target="_blank">
+                    <img src="<%=Utils.AbsoluteWebRoot %>themes/CarnavalRadio/img/social/hy.png" alt="Carnaval Radio op Hyves!" /></a></li>
+                <li><a href="http://www.facebook.com/pages/Carnavalradio/143860025661475" target="_blank">
+                    <img src="<%=Utils.AbsoluteWebRoot %>themes/CarnavalRadio/img/social/fb.png" alt="Carnaval Radio op Facebook!" /></a></li>
+                <li><a href="http://www.twitter.com/carnavalradio" target="_blank">
+                    <img src="<%=Utils.AbsoluteWebRoot %>themes/CarnavalRadio/img/social/tw.png" alt="Carnaval Radio op Twitter!" /></a></li>
               </ul>
               <div class="right-corner">
               </div>

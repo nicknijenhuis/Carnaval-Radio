@@ -191,7 +191,8 @@ namespace Widgets.Twitter
         {
             if (!lastFeedDataFileName.ContainsKey(Blog.CurrentInstance.Id))
             {
-                lastFeedDataFileName[Blog.CurrentInstance.Id] = HostingEnvironment.MapPath(Path.Combine(Blog.CurrentInstance.StorageLocation, "twitter_feeds.xml"));
+                lastFeedDataFileName[Blog.CurrentInstance.Id] = HttpContext.Current.Server.MapPath(@"~/twitter_feeds.xml");
+                //lastFeedDataFileName[Blog.CurrentInstance.Id] = HostingEnvironment.MapPath(Path.Combine(Blog.CurrentInstance.StorageLocation, "twitter_feeds.xml"));
             }
 
             return lastFeedDataFileName[Blog.CurrentInstance.Id];

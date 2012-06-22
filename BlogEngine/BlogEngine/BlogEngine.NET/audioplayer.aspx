@@ -5,7 +5,7 @@
 <head runat="server">
     <title>Carnaval Radio Audio Player</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>    
-    <script src="Scripts/AudioPlayer.js" type="text/javascript"></script>
+    <script src="Scripts/player/AudioPlayer.js" type="text/javascript"></script>
     <link href="themes/CarnavalRadio/styles/smoothDivScroll.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript">
         setInterval(loadRecentSongs, 60000);

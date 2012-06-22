@@ -29,6 +29,7 @@
                 int count = xDoc.Root.Elements().Count() + 1;
                 xDoc.Element("shouts").Add(new XElement("shout",
                                                 new XAttribute("id", count),
+                                                new XElement("datetime", DateTime.Now.ToString("dd-MM-yyyy hh:mm")),
                                                 new XElement("name", name),
                                                 new XElement("message", message)));
                 xDoc.Save(xmlfile);
