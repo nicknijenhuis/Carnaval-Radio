@@ -12,8 +12,8 @@ body
 	color: #444444;
     margin: 0 auto;
     width:1006px;
-    position: relative;
     height:100%;
+    position: relative;
 }
 
 div#container
@@ -42,17 +42,18 @@ div#shadow
 }
 
 h1 {
-	font-size: 130%;
+	font-size: 100%;
 	letter-spacing: 1px;
 }
 
 h2 {
-	font-size: 110%;
+	font-size: 100%;
 }
 
 a {
 	text-decoration: none;
-	color: #5C80B1;
+	color: #009e1e;
+	
 }
 
 a[href^="\/file.axd"] {
@@ -68,15 +69,36 @@ a:hover {
 img {
 	border: none;
 }
-
-#content {
-	float: left;
-	width: 70%;
+#ContentContainer
+{
+    position: relative;
+    width:940px;
+    clear:both;
+}
+#content 
+{
+    padding-left:20px;
+    width:620px;
+    float:left;
 }
 
-#sidepanel {
-	float: right;
-	width: 28%;
+#sidepanel 
+{
+    width:280px;
+    float:right;
+}
+
+#page-footer
+{
+    clear:both;
+    height:300px;
+    width:940px;
+    /*todo*/
+    background-color:black;
+}
+#page-footer p
+{
+    margin:0; padding:0;
 }
 
 .loginbox{
@@ -108,6 +130,10 @@ img {
 #main
 {
     background-color:White;
+    padding-top:20px;
+    padding-bottom:20px;
+    height:100%;
+    width:940px;
 }
 
 
@@ -288,7 +314,19 @@ a#next-slide
 	width: 32px;
 	margin-right: 10px;
 	margin-top: 10px;
-	float: right;
+	float: right;	
+}
+div.menu-shadow
+{
+    background-color:transparent;
+    display:block;
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    z-index:5;
+    background-image:url('img/menu-shadow.png');
+    width:940px;
+    height:5px;
 }
 
 /*----------------------------
@@ -304,29 +342,70 @@ div.widgetzone .clear{
 	clear: left;
 }
 
-div.widget{
-	background: white;
-	border: 1px solid silver;
-	padding: 10px 15px;
-	margin-bottom: 10px;
-	z-index: 1;
-	min-width: 1px;
+div.widget
+{
+    position:relative;
+    width:260px;
+    margin-bottom:20px;
+}
+
+div.widget div.bol
+{
+    background-image:url('img/widget-bol.png');
+    position:absolute;
+    top:-10px;
+    left:-15px;
+    width: 41px;
+    height:57px;
 }
 
 div.widget .content{
 	line-height: 16px;
 	color: #666666;
+	border-left:2px dashed #30e637;
+	border-right:2px dashed #30e637;
+	padding:10px;
+}
+div.widget div.title
+{
+    background-image:url('img/widget-top.png');
+    height:40px;
+    width:100%;
+    background-repeat:repeat-x;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+	behavior: url(extra/border-radius.htc);
+}
+div.widget div.title h4
+{    
+    margin:0;
+    padding:0;
+    font-weight:normal;
+    padding-top:8px;
+    padding-left:35px;
+    font-size:18pt;
+    line-height:18pt;
+    color:White;
+
 }
 
-div.widget h4{
-	font-size: 120%;
-	border-bottom: 1px solid silver;
-	padding-bottom: 5px;
-	margin: 0;
-	margin-bottom: 5px;
-	z-index: 0;
-	color: #999999;
-	letter-spacing: 1px;
+div.widget div.footer
+{
+    background-image:url('img/widget-bottom.png');
+    height:36px;
+    width:100%;
+    background-repeat:repeat-x;
+-webkit-border-bottom-right-radius: 8px;
+-webkit-border-bottom-left-radius: 8px;
+-moz-border-radius-bottomright: 8px;
+-moz-border-radius-bottomleft: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+	behavior: url(extra/border-radius.htc);
 }
 
 div.widget a.edit, div.widget a.move, div.widget a.delete{
@@ -367,6 +446,17 @@ div.widget a.edit, div.widget a.move, div.widget a.delete{
     margin-bottom: 5px;
 }
 
+
+#page-footer div.widgetzone
+{
+    width:940px;
+}
+
+#page-footer div.widget
+{
+    float:left;
+}
+
 /*----------------------------
 					 Blogroll
 ----------------------------*/
@@ -392,16 +482,23 @@ div.widget a.edit, div.widget a.move, div.widget a.delete{
 					 Posts
 ----------------------------*/
 
-div.post, .mceContentBody {
-	border: 1px solid silver;
+div.post, .mceContentBody 
+{
 	padding: 3px 10px;
-	margin-bottom: 20px;
 	background-color: white;
 	line-height: 125%;
 }
 
 div.post h1, .mceContentBody h1 {
 	margin: 5px 0 0 0;
+
+}
+div.post h1 a.taggedlink
+{
+    font-size:28pt;
+    line-height:28pt;
+    text-decoration:none;
+	color:#7c551c;
 }
 
 div.post .author {
@@ -415,10 +512,14 @@ div.post .pubDate {
 	color: #666666;
 	font-size: 95%;
 	float: right;
+	font-weight:bold;
+	margin-top:5px;
 }
 
-div.post .text {
-	margin-top: 30px;
+div.post .text 
+{
+    font-family:Arial;
+	margin-top: 10px;
 }
 
 div.post .text h2 {
@@ -465,17 +566,13 @@ div.post .text a[href^="http:"] {
 
 .postForList
 {
-    padding:5px;
+    padding-left:10px;
     width:300px;
     height:405px;
     float:left;
-    margin-bottom:35px;
 }
-.postForList div.text
-{
-
-}
-.postForList div.title h1, .postForList div.title a, .postForList .image, .postForList .image img, .postForList div.text a.read-more, .postForList div.text p
+.postForList div.title h1, .postForList div.title a, .postForList .image, .postForList .image img, .postForList div.text a.read-more, .postForList div.text p,
+.postForListLast div.title h1, .postForListLast div.title a, .postForListLast .image, .postForListLast .image img, .postForListLast div.text a.read-more, .postForListLast div.text p
 {
     margin:0; padding:0;
 }
@@ -491,10 +588,10 @@ div.post .text a[href^="http:"] {
 .postForList div.title a
 {
     color:#7c551c;
-
 }
 .postForList div.title h1
 {
+    font-size: 15pt;
     margin-left:50px;
     padding-top:15px;
     width:230px;
@@ -506,27 +603,115 @@ div.post .text a[href^="http:"] {
 .postForList .image
 {
     border:2px solid #fe9f10;
-    border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(extra/border-radius.htc);
     width:275px;
     margin-left:10px;
     margin-bottom:20px;
 }
-.postForList .image img
-{    border-radius: 4px;}
+.postForList .image img, .postForListLast .image img
+{    	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(extra/border-radius.htc);}
 .postForList .text 
 {
     height:200px;
+    width:273px;
+    padding-left:2px;
     margin-left:10px;
     position:relative;
 }
+
+.postForList div.adminLinks, .postForListLast div.adminLinks
+{
+    position:absolute;
+    bottom:45px;
+    left:0;
+}
+.postForListLast div.adminLinks
+{bottom:0;}
+
 .postForList div.text a.read-more
 {
     position:absolute;
-    bottom:10px;
+    bottom:40px;
     right:0;
 }
 
+/*shadow seperator */
+div.shadow-post
+{
+    position:relative;
+    clear:both;
+    margin:20px 5px 0 5px;
+    padding-top:30px;
+    background-image:url('img/shadow-posts.png');
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    width:930px;
+    height:26px;
+}
 
+.postForListLast
+{
+    width:900px;
+    height:250px;
+    padding:0 0 0 20px;
+}
+
+.postForListLast div.title
+{
+    width:590px;
+}
+.postForListLast div.title a
+{
+    font-family:Arial;
+    font-size:24pt;
+    color:#7c551c;
+}
+.postForListLast div.title h1
+{
+    margin-left:0;
+    width:550px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.postForListLast .title-text
+{float:left; width:590px; height:250px;
+ }
+.postForListLast .image
+{
+    float:right;
+    border:2px solid #fe9f10;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(extra/border-radius.htc);
+    width:275px;
+    margin-left:15px;
+    margin-bottom:20px;
+}
+.postForListLast .image img
+{  width:275px; height:250px;}
+.postForListLast .text 
+{
+    font-family:Arial;
+    font-sizes:12pt;
+    height:200px;
+    position:relative;
+    margin-left:5px;
+    margin-top:20px;
+}
+.postForListLast div.text a.read-more
+{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
 
 
 
@@ -779,11 +964,8 @@ ul.recentComments li a.postTitle{
 ----------------------------*/
 
 #page {
-	border: 1px solid silver;
-	padding: 3px 10px;
-	margin-bottom: 20px;
-	background-color: white;
-	line-height: 17px;
+    clear:both;
+    padding:0;
 }
 
 #page h1 {
@@ -897,8 +1079,7 @@ ul.recentComments li a.postTitle{
 
 #contact{
 	background : white;
-	padding: 10px;
-	border: 1px solid silver;
+	padding:0 20px 0 0;
 }
 
 #contact h1{
@@ -1010,6 +1191,10 @@ ul.recentComments li a.postTitle{
 .comment {
     padding: 5px;
 }
+#commentCompose
+{
+    margin-top:5px;
+}
 
 /* nested comments */
 
@@ -1120,17 +1305,30 @@ input[type="text"], input[type="select"] {
     padding: 3px;
 }
 
-input[type="submit"], input[type="button"], input[type="file"] {
-	color: #000000;
-	background: #FFFFFF;
-	border: 1px solid #B8C1CA;
-	padding: 3px 5px;
+input[type="submit"], input[type="button"], input[type="file"], a.aButton {
+    background-image: url('img/button.png');
+
+    background-position:bottom;
+	display:block;
+	background-color:transparent;
+	border:none;
+    background-repeat:no-repeat;
+	font-family:arial, sans-serif;
+    line-height:38px;
+    padding-right:20px;
+	text-align:right;
+	letter-spacing:0.5pt;
+	cursor:pointer;
+	color:white;
+	font-weight:bold;
+	width:164px;
+	height:38px;
 }
 
-input[type="submit"]:hover, input[type="button"]:hover {
-	color: #FFFFFF;
-	background: #B8C1CA;
-	cursor: pointer;
+input[type="submit"]:hover, input[type="button"]:hover, a.aButton:hover
+{
+    color:#009e1e;
+    text-decoration:none;
 }
 
 #searchcomments {
@@ -1197,15 +1395,18 @@ div.albums ul
 {
     list-style-type:none;
     margin:0;
+    margin-top:15px;
+    font-weight:bold;
     padding:0;
 }
 div.albums ul li
 {
-    width:200px;
+    width:180px;
     height:200px;
     background-color:#eee;
-
-    border:1px solid #ddd;
+    float:left;
+    margin-left:20px;
+    border:1px solid #ccc;
 }
 div.albums ul li:hover
 {
@@ -1213,8 +1414,7 @@ div.albums ul li:hover
 }
 div.albums ul li p
 {    
-    color:#000;
-    
+    color:#000;    
     text-align:center;
     margin:0;
     padding:5px 0;
@@ -1227,6 +1427,26 @@ div.albums ul li img
 { 
     border:1px solid #ccc;
     margin:0;
-    margin-left:20px;
+    margin-left:10px;
     width:160px;
+}
+/*----------------------------
+					 Gastenboek
+----------------------------*/
+
+div#GuestbookView
+{
+    position:relative;
+    width:600px;
+    padding:10px;
+}
+
+a.aButton
+{
+    position:absolute;
+    top:-85px;
+    right:0;
+    font-size:10pt;
+    padding-right:40px;
+    display:block;
 }

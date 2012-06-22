@@ -151,7 +151,7 @@
     <value>Archief</value>
   </data>
   <data name="areYouSure" xml:space="preserve">
-    <value>Weet u zeker dat u {0} {1}?</value>
+    <value>Weet u zeker dat u {1} wilt {0}?</value>
   </data>
   <data name="attachFile" xml:space="preserve">
     <value>Bestand toevoegen</value>
@@ -202,7 +202,7 @@
     <value>Contact formulier</value>
   </data>
   <data name="controls" xml:space="preserve">
-    <value>Gereedschappen</value>
+    <value>Overig</value>
   </data>
   <data name="country" xml:space="preserve">
     <value>Land</value>
@@ -656,7 +656,7 @@
     <value>Avatars</value>
   </data>
   <data name="blogroll" xml:space="preserve">
-    <value>Blogroll</value>
+    <value>Nieuws van derden</value>
   </data>
   <data name="enablePingbacks" xml:space="preserve">
     <value>Pingbacks aanzetten</value>
@@ -1780,5 +1780,14 @@
   </data>
   <data name="fotos" xml:space="preserve">
     <value>Foto's</value>
+  </data>
+  <data name="addGuestbookMessage" xml:space="preserve">
+    <value>Bericht plaatsen</value>
+  </data>
+  <data name="messages" xml:space="preserve">
+    <value>Berichten</value>
+  </data>
+  <data name="saveMessage" xml:space="preserve">
+    <value>Plaats bericht</value>
   </data>
 </root>

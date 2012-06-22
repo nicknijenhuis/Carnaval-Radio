@@ -5,14 +5,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head runat="server" profile="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="shortcut icon" href="~/pics/blogengine.ico" type="image/x-icon" />
+    <link rel="icon" href="<%# Utils.AbsoluteWebRoot %>/themes/CarnavalRadio/img/fav32.png"
+        sizes="32x32" type="image/png">
+    <link rel="icon" href="<%# Utils.AbsoluteWebRoot %>/themes/CarnavalRadio/img/fav64.png"
+        sizes="64x64" type="image/png">
     <asp:ContentPlaceHolder ID="cphHeader" runat="server" />
     <asp:Literal ID="StylesAndScripts" runat="server" />
     <script type="text/javascript">
         jQuery(function () {
             jQuery('ul.head-menu').superfish();
         });
-
         function OpenStreamPopup() {
             return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'Carnaval Radio', 'resizable=no,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=450,height=380');
         }
@@ -25,7 +27,6 @@
         }
 
     </script>
-    <script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.slideshow').cycle({
@@ -33,6 +34,12 @@
                 timeout: 4000,
                 random: 1,
                 after: onAfter
+            });
+
+            $('div.text marquee').marquee('pointer').mouseover(function () {
+                $(this).trigger('stop');
+            }).mouseout(function () {
+                $(this).trigger('start');
             });
 
             $('div#shadow').css('height', ($('body').height() - 185) + 'px');
@@ -50,6 +57,7 @@
                     next: '#next-slide'
                 });
             });
+
  </script>
     </asp:Literal>
 </head>
@@ -84,7 +92,7 @@
             </div>
             <div class="nuopderadio_box" onclick="OpenStreamPopup();">
                 <div class="text">
-                    <marquee scrollamount="5" width="279" height="30"> 
+                    <marquee scrollamount="2" width="279" height="30"> 
                         <a id="cc_stream_info_song">Huidig nummer laden...</a>
                     </marquee>
                 </div>
@@ -96,7 +104,6 @@
             <ul class="head-menu">
                 <li><a href="<%=Utils.AbsoluteWebRoot %>" rel="home">
                     <%=Resources.labels.home %></a></li>
-                <asp:Literal runat="server" ID="litMenu" />
                 <li><a href="<%=Utils.AbsoluteWebRoot %>sponsoren.aspx">
                     <%=Resources.labels.sponsoren %></a></li>
                 <li><a href="<%=Utils.AbsoluteWebRoot %>gastenboek.aspx">
@@ -111,8 +118,7 @@
                 <li>
                     <blog:MobileThemeSwitch runat="server" /></li>
                 <%
-                 }
-                %>
+                 } %>
             </ul>
             <ul>
                 <li><a href="http://www.youtube.com/carnavalsradio" target="_blank">
@@ -126,15 +132,26 @@
             </ul>
             <div class="right-corner">
             </div>
+            <div class="menu-shadow">
+            </div>
         </div>
         <div id="SliderAndButtons" runat="server" class="slider-and-buttons">
             <a id="prev-slide"></a><a id="next-slide"></a>
             <div id="header-slider">
                 <asp:Literal runat="server" ID="litHeaderImages" />
             </div>
+            <div class="menu-shadow">
+            </div>
         </div>
+        <!--[if lt IE 8]> <div style=' clear: both; height: 42px; padding:0 0 0 0;'> <a target="_blank" href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0005_dutch.jpg" border="0" height="42" width="940" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
         <div id="main">
             <asp:ContentPlaceHolder ID="cphBody" runat="server" />
+            <div style="clear: both; display: block">
+            </div>
+        </div>
+        <div id="page-footer">
+            <blog:WidgetZone runat="server" ID="Footer" ZoneName="Footer">
+            </blog:WidgetZone>
         </div>
     </div>
     </form>

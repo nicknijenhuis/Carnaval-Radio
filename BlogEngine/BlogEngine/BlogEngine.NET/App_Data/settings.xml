@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <settings>
-  <displayratingsonrecentposts>True</displayratingsonrecentposts>
+  <displayratingsonrecentposts>False</displayratingsonrecentposts>
   <authorname>Carnaval Radio</authorname>
   <email>info@carnaval-radio.nl</email>
   <mobiletheme>Mobile</mobiletheme>
@@ -12,7 +12,7 @@
   <trackingscript />
   <showdescriptioninpostlist>False</showdescriptioninpostlist>
   <commentsperpage>10</commentsperpage>
-  <enablepingbacksend>True</enablepingbacksend>
+  <enablepingbacksend>False</enablepingbacksend>
   <showdescriptioninpostlistforpostsbytagorcategory>False</showdescriptioninpostlistforpostsbytagorcategory>
   <commentblacklistcount>2</commentblacklistcount>
   <iscocommentenabled>False</iscocommentenabled>
@@ -20,7 +20,7 @@
   <addiptowhitelistfilteronapproval>False</addiptowhitelistfilteronapproval>
   <themecookiename>theme</themecookiename>
   <trustauthenticatedusers>True</trustauthenticatedusers>
-  <enablecountryincomments>True</enablecountryincomments>
+  <enablecountryincomments>False</enablecountryincomments>
   <contactformmessage>&lt;p&gt;Voor vragen, informatie over sponsoring of overige opmerkingen kunt u onderstaand contactformulier gebruiken.&lt;/p&gt;</contactformmessage>
   <searchbuttontext>Zoeken</searchbuttontext>
   <showincludecommentsoption>False</showincludecommentsoption>
@@ -34,8 +34,8 @@
   <smtpserver>smtp.carnaval-radio.nl</smtpserver>
   <disqusdevmode>False</disqusdevmode>
   <showpostnavigation>False</showpostnavigation>
-  <displaycommentsonrecentposts>True</displaycommentsonrecentposts>
-  <enabletrackbackreceive>True</enabletrackbackreceive>
+  <displaycommentsonrecentposts>False</displaycommentsonrecentposts>
+  <enabletrackbackreceive>False</enabletrackbackreceive>
   <enableopensearch>True</enableopensearch>
   <dayscommentsareenabled>0</dayscommentsareenabled>
   <useblognameinpagetitles>True</useblognameinpagetitles>
@@ -46,7 +46,7 @@
   <disqusaddcommentstopages>False</disqusaddcommentstopages>
   <alternatefeedurl />
   <enablecommentsmoderation>True</enablecommentsmoderation>
-  <enabletrackbacksend>True</enabletrackbacksend>
+  <enabletrackbacksend>False</enabletrackbacksend>
   <timezone>0</timezone>
   <feedauthor />
   <allowservertodownloadremotefiles>False</allowservertodownloadremotefiles>
@@ -54,7 +54,7 @@
   <disquswebsitename />
   <handlewwwsubdomain />
   <theme>CarnavalRadio</theme>
-  <sendmailoncomment>True</sendmailoncomment>
+  <sendmailoncomment>False</sendmailoncomment>
   <description>De vastelaoves Radio!!</description>
   <blogrollvisibleposts>5</blogrollvisibleposts>
   <geocodinglatitude>0</geocodinglatitude>
@@ -64,7 +64,7 @@
   <smtpserverport>25</smtpserverport>
   <blockauthoroncommentdelete>False</blockauthoroncommentdelete>
   <iscommentnestingenabled>True</iscommentnestingenabled>
-  <timestamppostlinks>True</timestamppostlinks>
+  <timestamppostlinks>False</timestamppostlinks>
   <enablereferrertracking>False</enablereferrertracking>
   <avatar>wavatar</avatar>
   <smtppassword>radio1</smtppassword>
@@ -73,8 +73,8 @@
   <enablessl>False</enablessl>
   <name>Carnaval Radio</name>
   <moderationtype>Auto</moderationtype>
-  <enablepingbackreceive>True</enablepingbackreceive>
-  <showlivepreview>True</showlivepreview>
+  <enablepingbackreceive>False</enablepingbackreceive>
+  <showlivepreview>False</showlivepreview>
   <galleryfeedurl>http://dnbegallery.org/feed/FeedService.svc</galleryfeedurl>
   <remotemaxfilesize>524288</remotemaxfilesize>
   <enablerelatedposts>True</enablerelatedposts>
@@ -88,7 +88,7 @@
   <descriptioncharactersforpostsbytagorcategory>0</descriptioncharactersforpostsbytagorcategory>
   <commentreportmistakes>False</commentreportmistakes>
   <searchcommentlabeltext>Reacties?</searchcommentlabeltext>
-  <numberofrecentposts>10</numberofrecentposts>
+  <numberofrecentposts>5</numberofrecentposts>
   <selfregistrationinitialrole>Select</selfregistrationinitialrole>
   <enableselfregistration>False</enableselfregistration>
   <blogrollupdateminutes>60</blogrollupdateminutes>

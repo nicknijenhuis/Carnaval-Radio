@@ -27,7 +27,7 @@ public partial class sponsoren : BlogBasePage
      */
     protected void Page_Load(object sender, EventArgs e)
     {
-        this.Title = Resources.labels.sponsoren.ToLowerInvariant();
+        this.Title = Resources.labels.sponsoren;
 
         System.Web.HttpBrowserCapabilities browser = Request.Browser;
         string name = browser.Browser;
@@ -36,7 +36,7 @@ public partial class sponsoren : BlogBasePage
 
         StringBuilder sb = new StringBuilder();
 
-        var listSponsors = CRSponsor.GetListOnlyActiveAndAlter();
+        var listSponsors = CRSponsor.GetListOnlyActive();
         foreach (SponsorType sponsorType in Enum.GetValues(typeof(SponsorType)))
         {
             double width = 0;
@@ -82,7 +82,7 @@ public partial class sponsoren : BlogBasePage
                 logoWidth = 120;
                 break;
             default:
-                logoWidth = 300;
+                logoWidth = 80;
                 break;
         }
         logoHeight = logoWidth / 1.54545454545;

@@ -27,9 +27,10 @@ public partial class CrSite : System.Web.UI.MasterPage
             aLogin.HRef = Utils.RelativeWebRoot + "Account/login.aspx";
             aLogin.InnerText = Resources.labels.login;
         }
-        RegisterStyleSheetInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot,
-                                                "themes/CarnavalRadio/styles/superfish.css"));
+        RegisterStyleSheetInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/styles/superfish.css"));
         RegisterClientScriptInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/js/superfish.js"));
+        RegisterClientScriptInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/js/jquerymarquee.js"));
+        RegisterClientScriptInclude("http://malsup.github.com/jquery.cycle.all.js");
         litMenu.Text = buildMenu("");
         litSponsorImages.Text = getSponsorImages();
         litHeaderImages.Text = getHeaderImages();
@@ -61,9 +62,9 @@ public partial class CrSite : System.Web.UI.MasterPage
     private string getSponsorImages()
     {
         var sb = new StringBuilder();
-        foreach (CRSponsor crs in CRSponsor.GetListOnlyActiveAndAlter().Where(i => i.WidgetSwitch))
+        foreach (CRSponsor crs in CRSponsor.GetListOnlyActive().Where(i => i.WidgetSwitch))
         {
-            sb.AppendFormat("<a href=\"{0}\" title=\"{1}\"><img src=\"{2}\" alt=\"{1}\" title=\"{1}\" width=\"222\" height=\"86\" /></a>", crs.Url.ToUrlString(), crs.Name, crs.LogoURL);
+            sb.AppendFormat("<a href=\"{0}\" title=\"{1}\"><img src=\"{2}\" alt=\"{1}\" title=\"{1}\" width=\"222\" height=\"86\" /></a>", crs.Url.ToUrlString(), crs.Name, Utils.AbsoluteWebRoot + crs.LogoURL);
         }
         return sb.ToString();
     }

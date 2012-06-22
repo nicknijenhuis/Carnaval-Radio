@@ -14,13 +14,15 @@
 &lt;p style="margin: 0px 0px 1.5em; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px;"&gt;Team Carnaval-Radio.nl&lt;/p&gt;</content>
   <ispublished>True</ispublished>
   <isdeleted>False</isdeleted>
-  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentsenabled>False</iscommentsenabled>
   <pubDate>2012-06-18 14:25:00</pubDate>
-  <lastModified>2012-06-18 14:26:08</lastModified>
+  <lastModified>2012-06-21 16:35:23</lastModified>
   <raters>0</raters>
   <rating>0</rating>
   <slug>Limburgse-Aovendj-groot-succes!</slug>
-  <tags />
+  <tags>
+    <tag>CR</tag>
+  </tags>
   <comments />
   <categories>
     <category>19770e74-9ec9-4cde-b2ab-e5051aaaf348</category>

@@ -4,11 +4,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
 <head id="Head1" runat="server">
-    <title>BlogEngine.NET Admin</title>
+    <title>Carnaval Radio Admin</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="colorbox.css" type="text/css" />
     <link rel="stylesheet" href="tipsy.css" type="text/css" />
-    <link rel="shortcut icon" href="~/pics/blogengine.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/pics/cr.ico" type="image/x-icon" />
 </head>
 <body>
     <script type="text/javascript">
@@ -32,8 +32,9 @@
                     <span><%=BlogSettings.Instance.Name %> <%=Resources.labels.admin %></span>
                 </div>
                 <div class="toolbox">
-                    <%= Resources.labels.welcome %> <%= UserProfile() == null ? Page.User.Identity.Name : UserProfile().DisplayName %>
-                    | <a href="<%=Utils.RelativeWebRoot %>admin/Users/Profile.aspx?id=<%=Page.User.Identity.Name %>"><%=Resources.labels.myProfile %></a>
+                    <a style="text-transform: capitalize;" href="<%=Utils.RelativeWebRoot %>admin/Users/Profile.aspx?id=<%=Page.User.Identity.Name %>">
+                        <%= (UserProfile() == null ? Page.User.Identity.Name : UserProfile().DisplayName) %></a>
+                    | <a href="<%=Utils.RelativeWebRoot %>Account/change-password.aspx"><%= Resources.labels.changePassword %></a>
                     | <a href="<%=Utils.RelativeWebRoot %>"><%=Resources.labels.goToFrontPage %></a>
                     | <a runat="server" id="aLogin" />
                 </div>                                 
