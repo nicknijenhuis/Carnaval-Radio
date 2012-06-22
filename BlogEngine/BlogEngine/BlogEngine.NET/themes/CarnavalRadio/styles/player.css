@@ -34,21 +34,25 @@ border-bottom-left-radius: 15px;
 div#player
 {
     position:absolute;
-    top:100px;
+    top:85px;
     left:0;
 }
 div#player-container p
 {
-    font-family:Consolas;
+    font-family:Arial;
     font-weight:bold;
     font-size:12pt;
     color:#54BB3D;
     text-align:center;
-    padding: 3px;
+    padding: 5px;
 }
 div#player-container p#currentsong
 {
     color:white;
+}
+div#player *
+{
+    margin:0 auto;
 }
 
 div#player-content
