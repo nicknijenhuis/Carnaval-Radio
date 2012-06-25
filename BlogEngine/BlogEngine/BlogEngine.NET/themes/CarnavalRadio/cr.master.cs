@@ -110,7 +110,7 @@ public partial class CrSite : System.Web.UI.MasterPage
     {
         switch (title.ToLower())
         {
-            case "recente-nummers":
+            case "recente nummers":
                 return Utils.AbsoluteWebRoot + "recentenummers.aspx";
         }
         return null;
