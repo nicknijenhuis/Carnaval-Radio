@@ -1499,3 +1499,30 @@ div.BreadCrumb a
     height:30px;
     line-height:30px;
 }
+/*----------------------------
+		RecentSongs
+----------------------------*/
+div#RecentSongs ul
+{
+    list-style-type:none;
+}
+
+div#RecentSongs ul li
+{
+    background-image:url('img/rt.png');
+    background-position:left center;
+    font-size:11pt;
+    font-weight:bold;
+    background-repeat:no-repeat;
+    padding:5px 0 5px 60px;
+    height:60px;
+    line-height:60px;
+}
+
+div#RecentSongs ul li span.current
+{
+    color:#ff2626;
+    float:right;
+    padding-right:10px;
+    cursor:pointer;
+}

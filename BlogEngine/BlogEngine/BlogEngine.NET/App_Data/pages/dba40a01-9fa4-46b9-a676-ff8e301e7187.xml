@@ -2,7 +2,7 @@
 <page>
   <title>Recente nummers</title>
   <description />
-  <content>&lt;p&gt;[No text]&lt;/p&gt;</content>
+  <content>[No text]</content>
   <keywords />
   <slug>Recente-nummers</slug>
   <parent>e232f202-3635-4215-811f-8f738340f7cc</parent>
@@ -11,5 +11,5 @@
   <ispublished>True</ispublished>
   <isdeleted>False</isdeleted>
   <datecreated>2012-06-22 11:36:49</datecreated>
-  <datemodified>2012-06-22 11:37:02</datemodified>
+  <datemodified>2012-06-25 11:32:31</datemodified>
 </page>

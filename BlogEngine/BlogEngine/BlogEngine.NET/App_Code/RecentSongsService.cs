@@ -49,7 +49,7 @@ public class RecentSongsService : System.Web.Services.WebService {
         if (!stream.EndsWith("/")) stream += "/";
         var a = c.DownloadData(stream+"played.html");
         
-        var s = Encoding.UTF8.GetString(a);
+        var s = Encoding.GetEncoding(1252).GetString(a);
         var stringa = new string[] { @"<br><table border=0 cellpadding=2 cellspacing=2><tr><td>Played @</td><td><b>Song Title</b></td></tr><tr>" };
 
         var stuff = s.Split(stringa, StringSplitOptions.RemoveEmptyEntries)[1];
