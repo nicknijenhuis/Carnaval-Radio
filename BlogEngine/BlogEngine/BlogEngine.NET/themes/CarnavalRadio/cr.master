@@ -59,27 +59,24 @@
             });
 
  </script>
-     <script type="text/javascript">
-
-      
-      $(document).ready(function () {
-          setInterval(loadRecentSongs, 60000);
-          function loadRecentSongs() {
-              $.ajax({
-                  type: 'POST',
-                  contentType: 'application/json',
-                  dataType: 'json',
-                  url: $('a#CRwebroot').attr('href') + '/RecentSongsService.asmx/RecentSongs',
-                  success: function (data) {
-                      $('#currentsong').html(data.d[0].song);
-                  }
-              });
-          }
-         loadRecentSongs();
-     });
-    
-    </script>
     </asp:Literal>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setInterval(loadRecentSongs, 60000);
+            function loadRecentSongs() {
+                $.ajax({
+                    type: 'POST',
+                    contentType: 'application/json',
+                    dataType: 'json',
+                    url: $('a#CRwebroot').attr('href') + 'RecentSongsService.asmx/RecentSongs',
+                    success: function (data) {
+                        $('#currentsong').html(data.d[0].song);
+                    }
+                });
+            }
+            loadRecentSongs();
+        });    
+    </script>
 </head>
 <body>
 
