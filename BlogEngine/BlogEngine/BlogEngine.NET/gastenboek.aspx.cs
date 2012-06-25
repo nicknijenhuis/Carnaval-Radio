@@ -8,7 +8,6 @@ using System.Text;
 using System.Web;
 using BlogEngine.Core;
 using BlogEngine.Core.Web.Controls;
-using Guestbook;
 
 #endregion
 

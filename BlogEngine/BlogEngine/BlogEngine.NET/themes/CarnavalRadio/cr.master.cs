@@ -76,26 +76,46 @@ public partial class CrSite : System.Web.UI.MasterPage
         foreach (var parentPage in BlogEngine.Core.Page.Pages.Where(p => !p.HasParentPage))
         {
             menu.AppendFormat("<li class=\"page_item\"><a href=\"{0}\" title=\"{1}\">{1}</a>", parentPage.RelativeLink, parentPage.Title);
-
             if (parentPage.HasChildPages)
             {
-                menu.Append("<ul class=\"sub-menu\">");
-                foreach (
-                    var childPage in
-                        BlogEngine.Core.Page.Pages.Where(p => p.Parent == parentPage.Id))
-                {
-                    menu.AppendFormat(
-                        "<li class=\"page_item\"><a href=\"{0}\" title=\"{1}\">{1}</a></li>",
-                        childPage.RelativeLink, childPage.Title);
-                }
-                menu.AppendFormat("</ul>");
+                menu.Append(getChildPages(parentPage));
             }
-
             menu.Append("</li>");
         }
 
         return menu.ToString();
     }
+
+    private string getChildPages(BlogEngine.Core.Page parent)
+    {
+        var sb = new StringBuilder();
+        sb.Append("<ul class=\"sub-menu\">");
+        foreach (
+            var childPage in
+                BlogEngine.Core.Page.Pages.Where(p => p.Parent == parent.Id))
+        {
+            sb.AppendFormat(
+                "<li class=\"page_item\"><a href=\"{0}\" title=\"{1}\">{1}</a>", getReplacement(childPage.Title) ?? childPage.RelativeLink, childPage.Title);
+            if (childPage.HasChildPages)
+            {
+                sb.Append(getChildPages(childPage));
+            }
+            sb.Append("</li>");
+        }
+        sb.AppendFormat("</ul>");
+        return sb.ToString();
+    }
+
+    private string getReplacement(string title)
+    {
+        switch (title.ToLower())
+        {
+            case "recente-nummers":
+                return Utils.AbsoluteWebRoot + "recentenummers.aspx";
+        }
+        return null;
+    }
+
 
     /// <summary>
     /// Registers the client script include.

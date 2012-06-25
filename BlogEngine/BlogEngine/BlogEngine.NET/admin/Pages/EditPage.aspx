@@ -185,7 +185,7 @@ ValidateRequest="false" CodeFile="EditPage.aspx.cs" Inherits="Admin.Pages.EditPa
                                 <label class="lbl" for="<%=txtKeyword.ClientID %>"><%=Resources.labels.keywords %></label>
                                 <asp:TextBox runat="server" ID="txtKeyword" TextMode="MultiLine" Rows="5"  />
                             </li>
-                            <li>
+                            <li style="display:none;">
                                 <label class="lbl"><%=Resources.labels.options %></label>
                                 <asp:CheckBox runat="Server" ID="cbFrontPage" Text="<%$ Resources:labels, isFrontPage %>" /><br />
                             </li>
