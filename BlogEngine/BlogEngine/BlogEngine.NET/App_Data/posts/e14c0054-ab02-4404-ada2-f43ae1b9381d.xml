@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<post>
+  <author>Nick</author>
+  <title>test</title>
+  <description />
+  <content>&lt;p&gt;asdasdas&lt;/p&gt;</content>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <iscommentsenabled>True</iscommentsenabled>
+  <pubDate>2012-10-05 20:12:00</pubDate>
+  <lastModified>2012-10-05 20:12:05</lastModified>
+  <raters>0</raters>
+  <rating>0</rating>
+  <slug>test</slug>
+  <tags />
+  <comments />
+  <categories />
+  <notifications />
+</post>

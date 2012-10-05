@@ -74,7 +74,7 @@
                 body = Utils.StripHtml(body);
                 if (body.Length > 40)
                 {
-                    body = string.Format("<p>{0}...</p>{1}", body.Trim().Substring(0, 250), link);
+                    body = string.Format("<p>{0}...</p>{1}", body.Trim().Length >= 250 ? body.Trim().Substring(0, 250) : body.Trim(), link);
                 }
             }
         }

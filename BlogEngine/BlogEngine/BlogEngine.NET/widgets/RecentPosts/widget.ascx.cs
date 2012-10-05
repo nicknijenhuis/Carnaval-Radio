@@ -13,6 +13,7 @@ namespace Widgets.RecentPosts
     using System.Text;
     using System.Web;
     using System.Web.UI;
+    using System.Linq;
 
     using App_Code.Controls;
 
@@ -35,7 +36,7 @@ namespace Widgets.RecentPosts
         /// <summary>
         /// The default show comments.
         /// </summary>
-        private const bool DefaultShowComments = true;
+        private const bool DefaultShowComments = false;
 
         /// <summary>
         /// The default show rating.
@@ -105,7 +106,9 @@ namespace Widgets.RecentPosts
             {
                 var visiblePosts = Post.Posts.FindAll(p => p.IsVisibleToPublic);
 
+                
                 var max = Math.Min(visiblePosts.Count, numberOfPosts);
+
                 var list = visiblePosts.GetRange(0, max);
                 Blog.CurrentInstance.Cache.Insert("widget_recentposts", list);
             }
@@ -160,7 +163,7 @@ namespace Widgets.RecentPosts
 
                 var rating = Math.Round(post.Rating, 1).ToString(CultureInfo.InvariantCulture);
 
-                const string LinkFormat = "<li><a href=\"{0}\">{1}</a>{2}{3}</li>";
+                const string LinkFormat = "<li>{4}<a href=\"{0}\">{1}</a>{2}{3}</li>";
 
                 var comments = string.Format("<span>{0}: {1}</span>", labels.comments, post.ApprovedComments.Count);
 
@@ -177,16 +180,8 @@ namespace Widgets.RecentPosts
                     comments = null;
                 }
 
-                if (!showRating || !BlogSettings.Instance.EnableRating)
-                {
-                    rate = null;
-                }
-                else if (post.Raters == 0)
-                {
-                    rate = string.Format("<span>{0}</span>", labels.notRatedYet);
-                }
-
-                sb.AppendFormat(LinkFormat, post.RelativeLink, HttpUtility.HtmlEncode(post.Title), comments, rate);
+                sb.AppendFormat(LinkFormat, post.RelativeLink, HttpUtility.HtmlEncode(post.Title), comments, null, 
+                    showRating ? "<span>" + post.DateCreated.ToString("dd-MM-yyyy") + "</span>" : null);
             }
 
             sb.Append("</ul>");
