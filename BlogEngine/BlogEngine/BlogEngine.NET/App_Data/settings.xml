@@ -81,7 +81,7 @@
   <remotefiledownloadtimeout>30000</remotefiledownloadtimeout>
   <enableenclosures>False</enableenclosures>
   <endorsement>http://www.dotnetblogengine.net/syndication.axd</endorsement>
-  <removewhitespaceinstylesheets>True</removewhitespaceinstylesheets>
+  <removewhitespaceinstylesheets>False</removewhitespaceinstylesheets>
   <commentwhitelistcount>1</commentwhitelistcount>
   <descriptioncharacters>300</descriptioncharacters>
   <addiptoblacklistfilteronrejection>False</addiptoblacklistfilteronrejection>

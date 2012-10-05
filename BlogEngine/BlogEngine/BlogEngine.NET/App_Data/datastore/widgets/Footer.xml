@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widgets>
+  <widget id="4b6139a5-2c5c-483f-83ad-98a6b1f9e494" title="RecentPosts" showTitle="True">RecentPosts</widget>
+  <widget id="4942ca50-2055-4ab4-b930-05728919f912" title="LinkList" showTitle="True">LinkList</widget>
 </widgets>

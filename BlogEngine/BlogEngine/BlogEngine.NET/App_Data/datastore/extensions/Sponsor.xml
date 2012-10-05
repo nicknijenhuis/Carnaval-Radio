@@ -95,10 +95,10 @@
       <SelectedValue />
       <Values>1</Values>
       <Values>1</Values>
+      <Values>1</Values>
       <Values>2</Values>
+      <Values>1</Values>
       <Values>2</Values>
-      <Values>2</Values>
-      <Values>5</Values>
       <Values>5</Values>
       <Values>5</Values>
       <Values>5</Values>
@@ -121,7 +121,7 @@
       <Values>True</Values>
       <Values>False</Values>
       <Values>False</Values>
-      <Values>false</Values>
+      <Values>False</Values>
       <Values>True</Values>
       <Values>True</Values>
       <Values>True</Values>

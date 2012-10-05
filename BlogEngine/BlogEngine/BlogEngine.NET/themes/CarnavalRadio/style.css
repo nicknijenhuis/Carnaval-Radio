@@ -1378,13 +1378,14 @@ div.SponsorTypes ul li a img
 div.SponsorTypes ul li
 {
     float:left;
+    margin-bottom:5px;
 }
 
-div.Hoofdsponsor ul li {margin-right:12px;}
+div.Hoofdsponsor ul li {margin-right:8px;}
 div.Sponsor ul li {margin-right:4px;}
-div.Subsponsor ul li{margin-right:5px;}
-div.ClubVan50 ul li{margin-right:3.75px;}
-
+div.Subsponsor ul li {margin-right:5px;}
+div.ClubVan50 ul li {margin-right:3.75px;}
+div.VriendenVanCr ul li {margin-right:6px;}
 div.SponsorTypes ul li:last-child
 { margin:0; }
 
@@ -1525,4 +1526,54 @@ div#RecentSongs ul li span.current
     float:right;
     padding-right:10px;
     cursor:pointer;
+}
+
+/*----------------------------
+        WidgetZone
+-----------------------------*/
+
+/*----------------------------
+		Footer Widgets
+----------------------------*/
+
+div#page-footer div.widgetzone *{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	color:White;
+}
+div#page-footer div.widgetzone div.widget
+{
+    background-color:red;
+    margin-right:5px;
+}
+div#page-footer .title, div#page-footer .bol, div#page-footer .footer
+{
+    background:none;
+}
+
+div#page-footer .footer
+{
+    
+}
+
+div#page-footer div.widget a.edit, div#page-footer div.widget a.move, div#page-footer div.widget a.delete{
+	font-size: 85%;
+	font-weight: normal;
+	float: right;
+	z-index: 1;
+	margin-left: 2px;
+	background-color:White;
+}
+
+#page-footer div.widgetzone
+{
+    width:940px;
+}
+
+#page-footer div.widget
+{
+    float:left;
 }
