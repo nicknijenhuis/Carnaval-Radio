@@ -99,10 +99,11 @@ div#player-footer img
 div#player-content div#logo
 {
     background-image: url('../img/logo.png');
+    background-repeat:no-repeat;
     position:absolute;
     bottom:20px;
     left:130px;
-    width:513px;
+    width:535px;
     height:129px;
 }
 

@@ -15,8 +15,8 @@
             jQuery('ul.head-menu').superfish();
         });
         function OpenStreamPopup() {
-            alert("test");
-            return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'Carnaval Radio', 'width=800,height=500');
+            return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'CarnavalRadio',
+ 'width=800,height=500,scrollbars=yes,toolbar=yes,location=yes'); return false;
         }
         function onAfter() {
             $('#sponsorlink').html(this.href);
@@ -105,8 +105,8 @@
                     <asp:Literal ID="litSponsorImages" runat="server" />
                 </div>
             </div>
-            <div class="nuopderadio_text" onclick="OpenStreamPopup(); return false;"></div>
-            <div class="nuopderadio_box" onclick="OpenStreamPopup(); return false;">
+            <div class="nuopderadio_text" onclick="OpenStreamPopup();"></div>
+            <div class="nuopderadio_box" onclick="OpenStreamPopup();">
                 <div class="text">
                     <marquee scrollamount="2" width="279" height="30"> 
                         <div id="currentsong"></div>

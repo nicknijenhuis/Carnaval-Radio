@@ -11,4 +11,13 @@
            <iframe src="http://www.twitterfeed.com" width="100%" height="100%"></iframe>
         </div>
     </div>
+    <div class="hulptekst" style="position: absolute; right: 30px; top: 600px; width: 250px;">
+        <h3 style="margin-left: 30px;">Hulp</h3>
+        <ol>
+            <li>Klik op inloggen</li>
+            <li>Gebruikersnaam: info@carnaval-radio.nl</li>
+            <li>Wachtwoord: standaard (rad...)</li>
+            <li>Beheer de feed</li>
+        </ol>
+    </div>
 </asp:Content>
