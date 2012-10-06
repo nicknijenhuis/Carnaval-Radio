@@ -2,9 +2,11 @@
 <div style="max-height:300px; overflow-y: scroll; overflow-x: hidden;">
 <asp:Repeater runat="server" ID="repItems" OnItemDataBound="RepItemsItemDataBound">
   <ItemTemplate>
-    <asp:image runat="server" ID="twtImg" />
-    <asp:Label runat="server" ID="lblDate" style="color:gray" /><br />
-    <asp:Label runat="server" ID="lblItem" /><br /><br />
+    <div class="Tweet">
+        <div class="TweetImage"><asp:image runat="server" ID="twtImg" /></div>
+        <div class="TweetDate"><asp:Label runat="server" ID="lblDate" style="color:gray" /></div>
+        <div class="TweetText"><asp:Label runat="server" ID="lblItem" /></div>
+    </div>
   </ItemTemplate>
 </asp:Repeater>
 </div>

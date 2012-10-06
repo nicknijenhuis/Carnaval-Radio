@@ -158,9 +158,9 @@ img {
     position:absolute;
     top:0;
     right:0;
-    width:227px;
+    width:168px;
     z-index:0;
-    height:86px;
+    height:96px;
     text-align: center;
 }
 #header div.sponsor_frame
@@ -168,13 +168,14 @@ img {
     position:absolute;
     top:0;
     right:0;
-    width:227px;
+    width:170px;
     z-index:1;
-    height:88px;
+    height:98px;
     background-image:url('img/sponsor_frame.png');
 }
 #header div.nuopderadio_box
-{
+{    
+    display:block;
     cursor:pointer;
     position:absolute;
     bottom:0;
@@ -185,6 +186,7 @@ img {
 }
 #header div.nuopderadio_text
 {
+    display:block;
     cursor:pointer;
     position:absolute;
     bottom:8px;
@@ -1618,4 +1620,39 @@ div#page-footer div.widget a.edit, div#page-footer div.widget a.move, div#page-f
     margin-right:5px;
     margin-left:-9px;
     float:left;    
+}
+
+/*----------------------------
+		Twitter styling
+----------------------------*/
+.Tweet
+{
+    width:220px;
+    border-bottom:1px solid #eeeeee;
+    padding:5px 0;
+}
+
+.Tweet .TweetImage
+{
+    float:left;
+    margin-right:5px;
+}
+
+.Tweet .TweetDate
+{
+    font-weight:bold;
+    text-transform: capitalize;
+}
+
+div#shoutitout a
+{
+    position:absolute;
+    right:-8px;
+    top:500px;
+    z-index:1;
+    background-image:url('img/shout.png');
+    height:126px;
+    width:40px;
+    cursor:pointer;
+    display:block;
 }

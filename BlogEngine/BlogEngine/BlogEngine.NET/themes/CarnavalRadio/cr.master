@@ -15,6 +15,7 @@
             jQuery('ul.head-menu').superfish();
         });
         function OpenStreamPopup() {
+            alert("test");
             return window.open($('#CRwebroot').attr('href') + 'audioplayer.aspx', 'Carnaval Radio', 'width=800,height=500');
         }
         function onAfter() {
@@ -78,6 +79,11 @@
     </script>
 </head>
 <body>
+    <div id="shoutitout">
+        <!-- Begin http://chatwing.com chatbox button -->
+        <a onclick="javascript:window.open('http://chatwing.com/chatbox/5f43b960-0fb4-11e2-836c-a5a335a3a5b3?popout=true','ChatWing','url=no,left=300,top=100,width=300,height=350,status=0,location=0,menubar=0,titlebar=0,url=0,menuBar=0,toolbar=0,scrollbar=0,overflow=0,resizable=yes,dialog=1');"></a>
+        <!-- End http://chatwing.com chatbox button -->
+    </div>
 
   <form runat="Server" class="body">
   <div id="shadow_top"></div>
@@ -99,8 +105,8 @@
                     <asp:Literal ID="litSponsorImages" runat="server" />
                 </div>
             </div>
-            <div class="nuopderadio_text" onclick="OpenStreamPopup();"></div>
-            <div class="nuopderadio_box" onclick="OpenStreamPopup();">
+            <div class="nuopderadio_text" onclick="OpenStreamPopup(); return false;"></div>
+            <div class="nuopderadio_box" onclick="OpenStreamPopup(); return false;">
                 <div class="text">
                     <marquee scrollamount="2" width="279" height="30"> 
                         <div id="currentsong"></div>

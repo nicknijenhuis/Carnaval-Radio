@@ -31,7 +31,7 @@ namespace Widgets.RecentPosts
         /// <summary>
         /// The default number of posts.
         /// </summary>
-        private const int DefaultNumberOfPosts = 10;
+        private const int DefaultNumberOfPosts = 5;
 
         /// <summary>
         /// The default show comments.
@@ -133,6 +133,12 @@ namespace Widgets.RecentPosts
         /// <returns>The rendered html.</returns>
         private static string RenderPosts(List<Post> posts, StringDictionary settings)
         {
+            var numberOfPosts = DefaultNumberOfPosts;
+            if (settings.ContainsKey("numberofposts"))
+            {
+                numberOfPosts = int.Parse(settings["numberofposts"]);
+            }
+
             if (posts.Count == 0)
             {
                 // Blog.CurrentInstance.Cache.Insert("widget_recentposts", "<p>" + Resources.labels.none + "</p>");
@@ -153,8 +159,9 @@ namespace Widgets.RecentPosts
             {
                 bool.TryParse(settings["showrating"], out showRating);
             }
+            var max = Math.Min(posts.Count, numberOfPosts);
 
-            foreach (var post in posts)
+            foreach (var post in posts.Take(max))
             {
                 if (!post.IsVisibleToPublic)
                 {
