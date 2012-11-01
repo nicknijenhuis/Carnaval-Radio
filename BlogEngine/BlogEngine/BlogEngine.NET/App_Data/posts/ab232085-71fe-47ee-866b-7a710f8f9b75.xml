@@ -16,7 +16,7 @@
     <tag>&lt;Gastenboek&gt;</tag>
   </tags>
   <comments>
-    <comment id="8b7e5b97-6667-4f00-bfac-bed16549ecf2" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="False">
+    <comment id="8b7e5b97-6667-4f00-bfac-bed16549ecf2" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="True">
       <date>2012-06-21 09:48:31</date>
       <author>admin</author>
       <email>carnavalradio@gmail.com</email>
@@ -26,7 +26,7 @@
       <avatar />
       <content>hallo</content>
     </comment>
-    <comment id="e18373f8-b8c1-48d4-9e5c-0468b9fd4f29" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="False">
+    <comment id="e18373f8-b8c1-48d4-9e5c-0468b9fd4f29" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="True">
       <date>2012-06-21 09:49:37</date>
       <author>Nick</author>
       <email>nicknijenhuis@gmail.com</email>
@@ -35,6 +35,36 @@
       <moderatedby>Rule:white list</moderatedby>
       <avatar />
       <content>Tester</content>
+    </comment>
+    <comment id="d724fc15-6aa7-46e6-8c18-8e707deb0ed8" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="True">
+      <date>2012-10-30 14:13:26</date>
+      <author>fdsdfsdff</author>
+      <email>carnavalradio@gmail.com</email>
+      <country />
+      <ip>::1</ip>
+      <moderatedby>Rule:white list</moderatedby>
+      <avatar />
+      <content>test</content>
+    </comment>
+    <comment id="a371122a-e294-4892-88d1-db7aa84ecaf8" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="True">
+      <date>2012-10-30 14:13:32</date>
+      <author>fdsdfsdff</author>
+      <email>carnavalradio@gmail.com</email>
+      <country />
+      <ip>::1</ip>
+      <moderatedby>Rule:white list</moderatedby>
+      <avatar />
+      <content>asdsad</content>
+    </comment>
+    <comment id="b0f41e0a-1721-4da5-8a89-bbb1875665e0" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="False">
+      <date>2012-11-01 15:27:21</date>
+      <author>fdsdfsdff</author>
+      <email>carnavalradio@gmail.com</email>
+      <country />
+      <ip>::1</ip>
+      <moderatedby>Rule:authenticated</moderatedby>
+      <avatar />
+      <content>test</content>
     </comment>
   </comments>
   <categories />

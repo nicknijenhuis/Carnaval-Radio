@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <title>Live uitzendingen</title>
+  <description />
+  <content>&lt;p style="margin: 0px 0px 1.5em; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px;"&gt;Hieronder zijn de tijden weergegeven wanneer er Live-uitzendingen zijn:&lt;/p&gt;
+&lt;table style="border-collapse: collapse; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px; text-align: start; width: 450px;" border="1" cellspacing="1" cellpadding="1"&gt;
+&lt;tbody style="border-top-width: 1px; border-top-style: solid; border-top-color: #cccccc;"&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Dag:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;DJ's &amp;nbsp;&amp;nbsp;&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Van:&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Tot:&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;Maandag&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;-&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;Dinsdag&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;-&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;19:00&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;22:00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;Woensdag&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&lt;strong&gt;-&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;19:00&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;22:00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;Donderdag&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;-&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;Vrijdag&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;-&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;Zaterdag&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;-&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center;"&gt;Zondag&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;-&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="text-align: center;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p style="margin: 0px 0px 1.5em; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0px 0px 1.5em; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px;"&gt;Opmerkingen:&lt;/p&gt;
+&lt;ol style="margin-left: 35px; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px;"&gt;
+&lt;li&gt;Dit zijn alleen maar live tijden. Tijdens deze uitzendingen kunt u&amp;nbsp;&lt;a style="text-decoration: none; color: #ff3c00;" href="page/verzoekjes.aspx"&gt;verzoekjes&lt;/a&gt;&amp;nbsp;doen.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;De radio is 24 uur per dag / 7 dagen in de week te beluisteren.&lt;/li&gt;
+&lt;li&gt;Bij enorme gezelligheid kunnen deze tijden uitlopen.&lt;/li&gt;
+&lt;/ol&gt;</content>
+  <keywords />
+  <slug>Live-uitzendingen</slug>
+  <parent>e232f202-3635-4215-811f-8f738340f7cc</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isdeleted>False</isdeleted>
+  <datecreated>2012-10-25 20:18:01</datecreated>
+  <datemodified>2012-10-25 20:23:15</datemodified>
+</page>

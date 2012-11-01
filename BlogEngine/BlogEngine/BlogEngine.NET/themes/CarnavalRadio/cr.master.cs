@@ -30,10 +30,14 @@ public partial class CrSite : System.Web.UI.MasterPage
         RegisterStyleSheetInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/styles/superfish.css"));
         RegisterClientScriptInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/js/superfish.js"));
         RegisterClientScriptInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/js/jquerymarquee.js"));
+        RegisterClientScriptInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/js/jquery.peelback.js"));
         RegisterClientScriptInclude("http://malsup.github.com/jquery.cycle.all.js");
         litMenu.Text = buildMenu("");
+        litMenuOverig.Text = buildMenuOverig("");
         litSponsorImages.Text = getSponsorImages();
         litHeaderImages.Text = getHeaderImages();
+        icon32.Href = Utils.AbsoluteWebRoot + "themes/CarnavalRadio/img/fav32.png";
+        icon64.Href = Utils.AbsoluteWebRoot + "themes/CarnavalRadio/img/fav64.png";
 
         SliderAndButtons.Visible = JScriptSliderAndButtons.Visible = !HideSliderAndButtons;
     }
@@ -75,12 +79,36 @@ public partial class CrSite : System.Web.UI.MasterPage
 
         foreach (var parentPage in BlogEngine.Core.Page.Pages.Where(p => !p.HasParentPage))
         {
-            menu.AppendFormat("<li class=\"page_item\"><a href=\"{0}\" title=\"{1}\">{1}</a>", parentPage.RelativeLink, parentPage.Title);
-            if (parentPage.HasChildPages)
+            if (parentPage.Title.Contains("Luisteren"))
             {
-                menu.Append(getChildPages(parentPage));
+                menu.AppendFormat("<li class=\"page_item\"><a href=\"{0}\" title=\"{1}\">{1}</a>",
+                                  parentPage.RelativeLink, parentPage.Title);
+                if (parentPage.HasChildPages)
+                {
+                    menu.Append(getChildPages(parentPage));
+                }
+                menu.Append("</li>");
             }
-            menu.Append("</li>");
+        }
+
+        return menu.ToString();
+    }
+
+    private string buildMenuOverig(string currentPage)
+    {
+        StringBuilder menu = new StringBuilder();
+
+        foreach (var parentPage in BlogEngine.Core.Page.Pages.Where(p => !p.HasParentPage))
+        {
+            if (parentPage.Title.Contains("Overig"))
+            {
+                menu.AppendFormat("<li><a>{0}</a>", parentPage.Title);
+                if (parentPage.HasChildPages)
+                {
+                    menu.Append(getChildPages(parentPage));
+                }
+                menu.Append("</li>");
+            }
         }
 
         return menu.ToString();

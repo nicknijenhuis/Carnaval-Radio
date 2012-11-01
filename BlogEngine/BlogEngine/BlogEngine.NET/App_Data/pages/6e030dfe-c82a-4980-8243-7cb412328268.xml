@@ -2,7 +2,9 @@
 <page>
   <title>Verzoekjes</title>
   <description />
-  <content>[No text]</content>
+  <content>&lt;p style="margin: 0px 0px 1.5em; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px;"&gt;&amp;nbsp;Verzoekjes worden alleen gedraaid tijdens de&amp;nbsp;&lt;a style="text-decoration: none; color: #ff3c00;" href="page/live-uitzendingen.aspx"&gt;live-uitzendingen&lt;/a&gt;. Deze zijn gestart!&lt;/p&gt;
+&lt;p style="margin: 0px 0px 1.5em; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px;"&gt;&lt;strong&gt;&lt;span style="font-size: 12px;"&gt;SMS naar 1008 en begin je tekst met&amp;nbsp; CARNAVALRADIO en daarna je verzoekje&amp;nbsp;&lt;span style="font-size: 10px;"&gt;(40ct per opgestuurd bericht)&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0px 0px 1.5em; color: #39444d; font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Verdana, Arial, Tahoma, sans-serif; font-size: 14px;"&gt;&lt;span class="Apple-style-span" style="font-family: 'lucida grande', 'lucida sans unicode', helvetica, verdana, arial, tahoma, sans-serif;"&gt;Team Carnaval-Radio.nl&lt;/span&gt;&lt;/p&gt;</content>
   <keywords />
   <slug>Verzoekjes</slug>
   <parent>e232f202-3635-4215-811f-8f738340f7cc</parent>
@@ -11,5 +13,5 @@
   <ispublished>True</ispublished>
   <isdeleted>False</isdeleted>
   <datecreated>2012-06-22 11:37:31</datecreated>
-  <datemodified>2012-06-22 11:37:31</datemodified>
+  <datemodified>2012-10-25 20:20:22</datemodified>
 </page>

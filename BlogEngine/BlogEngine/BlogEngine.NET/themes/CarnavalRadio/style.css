@@ -13,7 +13,6 @@ body
     margin: 0 auto;
     width:1006px;
     height:100%;
-    position: relative;
 }
 
 div#container
@@ -503,6 +502,7 @@ div.post h1 a.taggedlink, div#page h1
     line-height:28pt;
     text-decoration:none;
 	color:#7c551c;
+	margin-bottom:10px;
 }
 
 div.post .author {
@@ -1647,12 +1647,27 @@ div#page-footer div.widget a.edit, div#page-footer div.widget a.move, div#page-f
 div#shoutitout a
 {
     position:absolute;
-    right:-8px;
+    right:-122px;
     top:500px;
     z-index:1;
     background-image:url('img/shout.png');
-    height:126px;
-    width:40px;
+    height:134px;
+    width:122px;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    display:block;
+}
+
+div#help a
+{
+        position:fixed;
+        bottom:0;
+        left: 0;
+            z-index:1;
+    background-image:url('img/help.png');
+    height:103px;
+    width:134px;
+    background-repeat:no-repeat;
     cursor:pointer;
     display:block;
 }

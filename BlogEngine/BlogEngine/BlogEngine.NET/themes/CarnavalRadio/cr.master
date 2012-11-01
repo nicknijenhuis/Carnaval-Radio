@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head runat="server" profile="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="icon" href="themes/CarnavalRadio/img/fav32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="themes/CarnavalRadio/img/fav64.png" sizes="64x64" type="image/png">
+    <link rel="icon" runat="server" sizes="32x32" type="image/png" id="icon32">
+    <link rel="icon" runat="server" sizes="64x64" type="image/png" id="icon64">
 
     <asp:ContentPlaceHolder ID="cphHeader" runat="server" />
     <asp:Literal ID="StylesAndScripts" runat="server" />
@@ -75,20 +75,34 @@
                 });
             }
             loadRecentSongs();
-        });    
+        });
+
+        $(function () {
+            $('#PeelBack').peelback({
+                adImage: $('a#CRwebroot').attr('href') + 'themes/CarnavalRadio/img/peel.png',
+                peelImage: $('a#CRwebroot').attr('href') + 'themes/CarnavalRadio/img/peel-image.png',
+                clickURL: 'http://www.aodopnuj.nl',
+                smallSize: 75,
+                bigSize: 300,
+                gaTrack: true,
+                gaLabel: 'Help',
+                autoAnimate: true
+            });
+        }); 
     </script>
 </head>
 <body>
-    <div id="shoutitout">
-        <!-- Begin http://chatwing.com chatbox button -->
-        <a onclick="javascript:window.open('http://chatwing.com/chatbox/5f43b960-0fb4-11e2-836c-a5a335a3a5b3?popout=true','ChatWing','url=no,left=300,top=100,width=300,height=350,status=0,location=0,menubar=0,titlebar=0,url=0,menuBar=0,toolbar=0,scrollbar=0,overflow=0,resizable=yes,dialog=1');"></a>
-        <!-- End http://chatwing.com chatbox button -->
-    </div>
-
+  <div id="PeelBack" style="position: absolute; top: 0; right: 0;"></div>
+  <div id="help"><a href="<%=Utils.AbsoluteWebRoot %>page/Help.aspx"></a></div>
   <form runat="Server" class="body">
   <div id="shadow_top"></div>
   <div id="shadow"></div>
   <div id="container">
+      <div id="shoutitout">
+          <!-- Begin http://chatwing.com chatbox button -->
+          <a onclick="javascript:window.open('http://chatwing.com/chatbox/5f43b960-0fb4-11e2-836c-a5a335a3a5b3?popout=true','ChatWing','url=no,left=300,top=100,width=300,height=350,status=0,location=0,menubar=0,titlebar=0,url=0,menuBar=0,toolbar=0,scrollbar=0,overflow=0,resizable=yes,dialog=1');"></a>
+          <!-- End http://chatwing.com chatbox button -->
+      </div>
           <div id="header">
             <div style="display:none;">
                 <p><a id="CRwebroot" href="<%=Utils.AbsoluteWebRoot %>"><%=BlogSettings.Instance.Name %></a></p>
@@ -131,8 +145,10 @@
                     <%=Resources.labels.guestbook %></a></li>
                 <li><a href="<%=Utils.AbsoluteWebRoot %>foto_albums.aspx">
                     <%=Resources.labels.fotos %></a></li>
+                <asp:Literal runat="server" ID="litMenuOverig" />
                 <li><a href="<%=Utils.AbsoluteWebRoot %>contact.aspx">
                     <%=Resources.labels.contact %></a></li>
+
               <!--<li><a href="javascript:void(BlogEngine.filterByAPML())" class="apmlfilter"><%=Resources.labels.filterByApml %></a></li>!-->
               <% if (Utils.IsMobile)
                  { %>

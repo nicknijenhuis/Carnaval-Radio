@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Configuration;
-using System.Data;
-using System.Web;
-using System.Web.Security;
-using System.Web.UI;
-using System.Web.UI.HtmlControls;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
+using System.Text.RegularExpressions;
 using BlogEngine.Core.Web.Controls;
 using BlogEngine.Core;
 
@@ -42,6 +34,43 @@ public partial class themes_CarnavalRadio_PostView : BlogEngine.Core.Web.Control
         postView.Index = this.Index;
 
         return postView;
+    }
+
+    public string getImage(bool ShowExcerpt, string input)
+    {
+        if (!ShowExcerpt || input == null)
+            return "";
+
+        string pain = input;
+        string pattern = @"<img(.|\n)+?>";
+
+        Match m = Regex.Match(input, pattern,
+                              RegexOptions.IgnoreCase | RegexOptions.Multiline);
+
+        if (m.Success)
+        {
+            string src = getSrc(m.Value);
+            return string.Format("<img class=\"left\" width=\"275\" height=\"155\" {0}  />", src);
+        }
+        string path = string.Format("{0}themes/{1}/img/logo.png", Utils.AbsoluteWebRoot, BlogSettings.Instance.GetThemeWithAdjustments(null));
+        return string.Format("<img class=\"left\" width=\"275\" height=\"155\" src=\"{0}\"  />", path);
+    }
+
+    private string getSrc(string input)
+    {
+        string pattern = "src=[\'|\"](.+?)[\'|\"]";
+
+        var reImg = new Regex(pattern,
+                              RegexOptions.IgnoreCase | RegexOptions.Multiline);
+
+        Match mImg = reImg.Match(input);
+
+        if (mImg.Success)
+        {
+            return mImg.Value;
+        }
+
+        return "";
     }
 
     /// <summary>

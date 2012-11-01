@@ -51,7 +51,7 @@
   <feedauthor />
   <allowservertodownloadremotefiles>False</allowservertodownloadremotefiles>
   <culture>Auto</culture>
-  <disquswebsitename />
+  <disquswebsitename>carnavalradio</disquswebsitename>
   <handlewwwsubdomain />
   <theme>CarnavalRadio</theme>
   <sendmailoncomment>False</sendmailoncomment>
@@ -66,7 +66,7 @@
   <iscommentnestingenabled>True</iscommentnestingenabled>
   <timestamppostlinks>False</timestamppostlinks>
   <enablereferrertracking>False</enablereferrertracking>
-  <avatar>wavatar</avatar>
+  <avatar>identicon</avatar>
   <smtppassword>radio1</smtppassword>
   <numberofrecentcomments>10</numberofrecentcomments>
   <enablerecaptchaoncontactform>False</enablerecaptchaoncontactform>

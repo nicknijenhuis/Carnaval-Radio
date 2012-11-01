@@ -1,12 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" xmlns:twitter="http://api.twitter.com" version="2.0">
+<rss version="2.0" xmlns:twitter="http://api.twitter.com" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
   <channel>
     <title>Twitter / carnavalradio</title>
     <link>http://twitter.com/carnavalradio</link>
-    <atom:link type="application/rss+xml" rel="self" href="http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=carnavalradio" />
+    <atom:link type="application/rss+xml" href="http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=carnavalradio" rel="self" />
     <description>Twitter updates from Carnaval-Radio.nl / carnavalradio.</description>
     <language>en-us</language>
     <ttl>40</ttl>
+    <item>
+      <title>carnavalradio: Carnaval-Radio.nl wéér begonnen!: 
+Vastelaovesvierders!
+
+
+
+Het is gelukkig alweer zover, want... http://t.co/mIOzJFgJ #carnavalradio</title>
+      <description>carnavalradio: Carnaval-Radio.nl wéér begonnen!: 
+Vastelaovesvierders!
+
+
+
+Het is gelukkig alweer zover, want... http://t.co/mIOzJFgJ #carnavalradio</description>
+      <pubDate>Mon, 29 Oct 2012 20:31:13 +0000</pubDate>
+      <guid>http://twitter.com/carnavalradio/statuses/263015151739994112</guid>
+      <link>http://twitter.com/carnavalradio/statuses/263015151739994112</link>
+      <twitter:source>&lt;a href="http://twitterfeed.com" rel="nofollow"&gt;twitterfeed&lt;/a&gt;</twitter:source>
+      <twitter:place />
+      <author>carnavalradio</author>
+    </item>
     <item>
       <title>carnavalradio: Limburgse Aovendj gróót succes!: 
 	Leef Vastelaovesvierders!
@@ -217,16 +237,6 @@
       <pubDate>Tue, 13 Dec 2011 22:23:03 +0000</pubDate>
       <guid>http://twitter.com/carnavalradio/statuses/146716792688091136</guid>
       <link>http://twitter.com/carnavalradio/statuses/146716792688091136</link>
-      <twitter:source>&lt;a href="http://www.facebook.com/twitter" rel="nofollow"&gt;Facebook&lt;/a&gt;</twitter:source>
-      <twitter:place />
-      <author>carnavalradio</author>
-    </item>
-    <item>
-      <title>carnavalradio: Carnaval-Radio Benefietavond op zaterdag 11 februari 2012 met o.a. Kartoesj, W-Dreej en Demi-sec http://t.co/lzZaZMPt</title>
-      <description>carnavalradio: Carnaval-Radio Benefietavond op zaterdag 11 februari 2012 met o.a. Kartoesj, W-Dreej en Demi-sec http://t.co/lzZaZMPt</description>
-      <pubDate>Tue, 13 Dec 2011 22:17:08 +0000</pubDate>
-      <guid>http://twitter.com/carnavalradio/statuses/146715300597989377</guid>
-      <link>http://twitter.com/carnavalradio/statuses/146715300597989377</link>
       <twitter:source>&lt;a href="http://www.facebook.com/twitter" rel="nofollow"&gt;Facebook&lt;/a&gt;</twitter:source>
       <twitter:place />
       <author>carnavalradio</author>

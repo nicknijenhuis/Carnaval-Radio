@@ -232,7 +232,7 @@
                             </li>
                             <li>
                                 <label class="lbl"><%=Resources.labels.options %></label>
-                                <asp:CheckBox runat="server" ID="cbEnableComments" Text="<%$ Resources:labels, enableComments %>" Checked="true" />
+                                <asp:CheckBox runat="server" ID="cbEnableComments" Text="<%$ Resources:labels, enableComments %>" Checked="false" />
                             </li>
                             <li>
                                  <asp:CheckBox runat="server" ID="cbPublish" Text="<%$ Resources:labels, publish %>" Checked="true" />

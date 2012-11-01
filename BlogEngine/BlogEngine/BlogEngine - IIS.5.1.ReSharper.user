@@ -9,7 +9,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/f:gastenboek.aspx" caret="453" fromTop="7" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/f:gastenboek.aspx.cs" caret="802" fromTop="12" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:site.master.cs" caret="0" fromTop="0" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:User controls/f:GuestbookView.ascx.cs" caret="595" fromTop="22" />
@@ -24,11 +23,8 @@
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostView.ascx.cs" caret="981" fromTop="0" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostView.ascx" caret="0" fromTop="0" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:widgets/d:Twitter/f:widget.ascx" caret="344" fromTop="5" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="2672" fromTop="19" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:site.master" caret="64" fromTop="0" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:styles/f:player.css" caret="1985" fromTop="31" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="2874" fromTop="28" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="941" fromTop="16" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:SocialMedia.aspx.cs" caret="0" fromTop="0" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Shoutbox.aspx.cs" caret="176" fromTop="7" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Themes.cshtml" caret="0" fromTop="0" />
@@ -38,27 +34,13 @@
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Shoutbox.aspx" caret="603" fromTop="13" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:SocialMedia.aspx" caret="955" fromTop="19" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/f:audioplayer.aspx.cs" caret="809" fromTop="24" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="2883" fromTop="37" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="0" fromTop="0" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:js/f:jquery.peelback.js" caret="1874" fromTop="20" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27201" fromTop="29" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="6618" fromTop="29" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="1527" fromTop="32" />
     </RecentFiles>
     <RecentEdits>
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="26988" fromTop="35" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27149" fromTop="50" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3134" fromTop="23" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3516" fromTop="25" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27359" fromTop="42" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27162" fromTop="32" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="2548" fromTop="43" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="2741" fromTop="36" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="2422" fromTop="35" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="2919" fromTop="30" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="2672" fromTop="19" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="4678" fromTop="39" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="1023" fromTop="18" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:styles/f:player.css" caret="2059" fromTop="34" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:styles/f:player.css" caret="1985" fromTop="31" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="941" fromTop="16" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Shoutbox.aspx" caret="144" fromTop="1" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Shoutbox.aspx.cs" caret="176" fromTop="7" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx" caret="1620" fromTop="15" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:_menu.cshtml" caret="1719" fromTop="13" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx" caret="1244" fromTop="12" />
@@ -71,6 +53,24 @@
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="2925" fromTop="38" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="2410" fromTop="33" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="2883" fromTop="37" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="8297" fromTop="36" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3141" fromTop="17" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="259" fromTop="15" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3861" fromTop="31" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="4326" fromTop="35" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27201" fromTop="29" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3564" fromTop="28" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:js/f:jquery.peelback.js" caret="1874" fromTop="20" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3731" fromTop="35" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3471" fromTop="26" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="3715" fromTop="31" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="3716" fromTop="39" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="3299" fromTop="30" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="4433" fromTop="50" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="3807" fromTop="31" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="4162" fromTop="40" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="6618" fromTop="29" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="1570" fromTop="33" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -136,6 +136,7 @@
       <Item value="else" priority="0" />
       <Item value="posts" priority="0" />
       <Item value="DefaultNumberOfPosts" priority="0" />
+      <Item value="parentPage" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="Empty" priority="0" />
@@ -185,6 +186,7 @@
     <ItemStatistics item="Qualified:System.String">
       <Item value="Length" priority="1" />
       <Item value="Trim`0" priority="0" />
+      <Item value="Contains`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@BlogEngine.Core.ServingLocation">
       <Item value="PostList" priority="1" />
@@ -204,6 +206,10 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.DateTime">
       <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BlogEngine.Core.Page">
+      <Item value="Description" priority="0" />
+      <Item value="Title" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

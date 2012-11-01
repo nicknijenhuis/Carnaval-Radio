@@ -89,6 +89,7 @@ ul.head-menu li li li.sfHover ul {
 }
 .head-menu li li:first-child, .head-menu li li li:first-child
 {
+    border:0;
     margin:0;
 }
 
@@ -111,12 +112,20 @@ ul.head-menu li li li.sfHover ul {
 
 .head-menu li li {
 	background:		#fbc13e;
+	border-top: 1px solid White;
     line-height:14px; 
 }
 .head-menu li li li {
 	background:		#9AAEDB;
     line-height:14px; 
 }
+
+.head-menu li li:first-child, .head-menu li li li:first-child
+{
+    border:0;
+    margin:0;
+}
+
 .head-menu li:hover, .head-menu li.sfHover,
 .head-menu a:focus, .head-menu a:hover, .head-menu a:active {
 
