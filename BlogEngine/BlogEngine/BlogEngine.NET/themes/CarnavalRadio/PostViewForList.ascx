@@ -32,7 +32,7 @@
             string src = getSrc(m.Value);
             return string.Format("<img class=\"left\" width=\"275\" height=\"155\" {0}  />", src);
         } 
-        string path = string.Format("{0}themes/{1}/img/logo.png", Utils.AbsoluteWebRoot, BlogSettings.Instance.GetThemeWithAdjustments(null));
+        string path = string.Format("{0}themes/{1}/img/nieuwsbericht.jpg", Utils.AbsoluteWebRoot, BlogSettings.Instance.GetThemeWithAdjustments(null));
         return string.Format("<img class=\"left\" width=\"275\" height=\"155\" src=\"{0}\"  />", path);
     }
 

@@ -2,7 +2,7 @@
 <page>
   <title>Luisteren</title>
   <description />
-  <content>&lt;p&gt;Luisterpagina&lt;/p&gt;</content>
+  <content>&lt;p&gt;&lt;a style="cursor: pointer;" onclick="OpenStreamPopup();"&gt;&lt;img style="display: block; margin-left: auto; margin-right: auto;" src="/cr/image.axd?picture=2012%2f11%2fluisteren.jpg" alt="Luisteren" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
   <keywords />
   <slug>Luisteren</slug>
   <parent>00000000-0000-0000-0000-000000000000</parent>
@@ -11,5 +11,5 @@
   <ispublished>True</ispublished>
   <isdeleted>False</isdeleted>
   <datecreated>2012-06-22 11:29:54</datecreated>
-  <datemodified>2012-06-22 11:29:54</datemodified>
+  <datemodified>2012-11-01 22:41:03</datemodified>
 </page>

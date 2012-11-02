@@ -517,7 +517,7 @@ div.post .pubDate {
 	font-size: 95%;
 	float: right;
 	font-weight:bold;
-	margin-top:5px;
+	margin-top:-20px;
 }
 
 div.post .text 
@@ -1653,6 +1653,19 @@ div#shoutitout a
     background-image:url('img/shout.png');
     height:134px;
     width:122px;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    display:block;
+}
+div#luisterenlinks a
+{
+    position:absolute;
+    left:-200px;
+    top:400px;
+    z-index:1;
+    background-image:url('img/luisterenlinks.png');
+    height:138px;
+    width:200px;
     background-repeat:no-repeat;
     cursor:pointer;
     display:block;

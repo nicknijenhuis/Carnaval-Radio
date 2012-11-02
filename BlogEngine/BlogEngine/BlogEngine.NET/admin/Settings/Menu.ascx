@@ -12,6 +12,7 @@
     <li <%=Current("SocialMedia.aspx")%>><a href="SocialMedia.aspx">
         <%=Resources.labels.SocialMedia %></a></li>
     <li <%=Current("Shoutbox.aspx")%>><a href="Shoutbox.aspx">Shoutbox</a></li>
+    <li <%=Current("Bovenhoek.aspx")%>><a href="Bovenhoek.aspx">Bovenhoek</a></li>
     <!--
     <li <%=Current("HeadTrack.aspx")%>><a href="HeadTrack.aspx"><%=Resources.labels.customCode %></a></li>
 

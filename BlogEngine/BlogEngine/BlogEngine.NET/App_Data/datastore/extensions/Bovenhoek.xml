@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ManagedExtension xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Bovenhoek">
+  <AdminPage />
+  <Author>Nick</Author>
+  <Description>Extension used to set merchandise in upper corner</Description>
+  <Enabled>true</Enabled>
+  <Priority>0</Priority>
+  <Settings>
+    <Delimiter>44</Delimiter>
+    <Help />
+    <Hidden>false</Hidden>
+    <Index>0</Index>
+    <IsScalar>true</IsScalar>
+    <KeyField>PeelUrl</KeyField>
+    <Name>Bovenhoek</Name>
+    <Parameters>
+      <KeyField>false</KeyField>
+      <Label>PeelUrl.</Label>
+      <MaxLength>500</MaxLength>
+      <Name>PeelUrl</Name>
+      <ParamType>String</ParamType>
+      <Required>true</Required>
+      <SelectedValue />
+      <Values>http://www.aodopnuj.nl</Values>
+    </Parameters>
+    <Parameters>
+      <KeyField>false</KeyField>
+      <Label>PeelImage.</Label>
+      <MaxLength>500</MaxLength>
+      <Name>PeelImage</Name>
+      <ParamType>String</ParamType>
+      <Required>true</Required>
+      <SelectedValue />
+      <Values>themes/CarnavalRadio/img/peel.png</Values>
+    </Parameters>
+    <Parameters>
+      <KeyField>false</KeyField>
+      <Label>PeelTarget.</Label>
+      <MaxLength>500</MaxLength>
+      <Name>PeelTarget</Name>
+      <ParamType>String</ParamType>
+      <Required>true</Required>
+      <SelectedValue />
+      <Values>_blank</Values>
+    </Parameters>
+    <ShowAdd>true</ShowAdd>
+    <ShowDelete>true</ShowDelete>
+    <ShowEdit>true</ShowEdit>
+  </Settings>
+  <ShowSettings>true</ShowSettings>
+  <Version>1.1</Version>
+</ManagedExtension>

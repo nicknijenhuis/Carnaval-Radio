@@ -57,7 +57,7 @@
       bigMaskSize = Math.floor((base.settings.bigSize * 0.96)) + 'px';
       
       //Assemble
-      peelHTML = $('<div id="peelback"><a target="_blank" href="' + base.settings.clickURL + '"><img src="' + base.settings.peelImage +'" alt="" border="0" /></a><div></div></div>');
+      peelHTML = $('<div id="peelback"><a target="_blank" href="' + base.settings.clickURL + '"><img src="' + base.settings.peelImage + '" alt="" border="0" /></a><div></div></div>');
       peelImage = peelHTML.find('img');
       peelMask = peelHTML.find('div');
           

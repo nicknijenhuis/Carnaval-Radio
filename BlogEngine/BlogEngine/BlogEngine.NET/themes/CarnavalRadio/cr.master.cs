@@ -9,6 +9,7 @@ using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using BlogEngine.Core;
 using ExtensionMethods;
+using BlogEngine.Core.Web.Extensions;
 
 public partial class CrSite : System.Web.UI.MasterPage
 {
@@ -32,6 +33,28 @@ public partial class CrSite : System.Web.UI.MasterPage
         RegisterClientScriptInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/js/jquerymarquee.js"));
         RegisterClientScriptInclude(string.Format("{0}{1}", Utils.AbsoluteWebRoot, "themes/CarnavalRadio/js/jquery.peelback.js"));
         RegisterClientScriptInclude("http://malsup.github.com/jquery.cycle.all.js");
+
+
+        var customScript = new StringBuilder();
+        var settings = ExtensionManager.GetSettings("Bovenhoek");
+        customScript.Append("<script type=\"text/javascript\">");
+        customScript.Append("$(function () {");
+            customScript.Append("    $('#PeelBack').peelback({");
+            customScript.AppendFormat("    adImage: $('a#CRwebroot').attr('href') + '{0}',", settings.GetSingleValue("PeelImage"));
+            customScript.Append("    peelImage: $('a#CRwebroot').attr('href') + 'themes/CarnavalRadio/img/peel-image.png',");
+            customScript.AppendFormat("    clickURL: '{0}',", settings.GetSingleValue("PeelUrl"));
+            customScript.Append("    smallSize: 75,");
+            customScript.Append("    bigSize: 300,");
+            customScript.Append("    gaTrack: true,");
+            customScript.Append("    gaLabel: 'Help',");
+            customScript.Append("    autoAnimate: true");
+            //customScript.AppendFormat("    target: {0}", settings.GetSingleValue("PeelTarget"));
+            customScript.Append("});");
+        customScript.Append("}); ");
+        customScript.Append("</script>");
+
+        litJSPeel.Text = customScript.ToString();
+
         litMenu.Text = buildMenu("");
         litMenuOverig.Text = buildMenuOverig("");
         litSponsorImages.Text = getSponsorImages();

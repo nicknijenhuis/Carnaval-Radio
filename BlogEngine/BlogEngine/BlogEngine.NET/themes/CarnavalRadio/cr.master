@@ -76,20 +76,8 @@
             }
             loadRecentSongs();
         });
-
-        $(function () {
-            $('#PeelBack').peelback({
-                adImage: $('a#CRwebroot').attr('href') + 'themes/CarnavalRadio/img/peel.png',
-                peelImage: $('a#CRwebroot').attr('href') + 'themes/CarnavalRadio/img/peel-image.png',
-                clickURL: 'http://www.aodopnuj.nl',
-                smallSize: 75,
-                bigSize: 300,
-                gaTrack: true,
-                gaLabel: 'Help',
-                autoAnimate: true
-            });
-        }); 
     </script>
+    <asp:Literal runat="server" ID="litJSPeel" />
 </head>
 <body>
   <div id="PeelBack" style="position: absolute; top: 0; right: 0;"></div>
@@ -102,6 +90,9 @@
           <!-- Begin http://chatwing.com chatbox button -->
           <a onclick="javascript:window.open('http://chatwing.com/chatbox/5f43b960-0fb4-11e2-836c-a5a335a3a5b3?popout=true','ChatWing','url=no,left=300,top=100,width=300,height=350,status=0,location=0,menubar=0,titlebar=0,url=0,menuBar=0,toolbar=0,scrollbar=0,overflow=0,resizable=yes,dialog=1');"></a>
           <!-- End http://chatwing.com chatbox button -->
+      </div>
+      <div id="luisterenlinks">
+          <a onclick="OpenStreamPopup();"></a>
       </div>
           <div id="header">
             <div style="display:none;">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:twitter="http://api.twitter.com" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss">
+<rss xmlns:twitter="http://api.twitter.com" version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Twitter / carnavalradio</title>
     <link>http://twitter.com/carnavalradio</link>
@@ -240,6 +240,19 @@ Het is gelukkig alweer zover, want... http://t.co/mIOzJFgJ #carnavalradio</descr
       <twitter:source>&lt;a href="http://www.facebook.com/twitter" rel="nofollow"&gt;Facebook&lt;/a&gt;</twitter:source>
       <twitter:place />
       <author>carnavalradio</author>
+    </item>
+    <item>
+      <title>Carnaval-Radio.nl wéér begonnen!, http://t.co/4KV7t4Q6,  #carnavalradio</title>
+      <link>http://twitter.com/davyheuts/statuses/264076596208603136</link>
+      <description>Carnaval-Radio.nl wéér begonnen!, &lt;a href="http://t.co/4KV7t4Q6"&gt;http://t.co/4KV7t4Q6&lt;/a&gt;,  &lt;em&gt;&lt;a href="http://search.twitter.com/search?q=%23carnavalradio" title="#carnavalradio" class=" "&gt;#carnavalradio&lt;/a&gt;&lt;/em&gt;</description>
+      <pubDate>Thu, 01 Nov 2012 18:49:01 +0000</pubDate>
+      <guid>http://twitter.com/davyheuts/statuses/264076596208603136</guid>
+      <author>davyheuts</author>
+      <media:content type="image/jpg" height="48" width="48" url="http://a0.twimg.com/profile_images/1586260262/DavyBKD11vierkant_normal.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <google:image_link xmlns:google="http://base.google.com/ns/1.0">http://a0.twimg.com/profile_images/1586260262/DavyBKD11vierkant_normal.jpg</google:image_link>
+      <twitter:metadata xmlns:twitter="http://api.twitter.com/">
+        <twitter:result_type>recent</twitter:result_type>
+      </twitter:metadata>
     </item>
   </channel>
 </rss>
