@@ -9,68 +9,68 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/f:gastenboek.aspx.cs" caret="802" fromTop="12" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:User controls/f:GuestbookView.ascx.cs" caret="1245" fromTop="0" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Posts/f:Add_entry.aspx" caret="13610" fromTop="29" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:CommentView.ascx" caret="947" fromTop="17" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:User controls/f:CommentView.ascx.cs" caret="687" fromTop="0" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:site.master.cs" caret="0" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:User controls/f:GuestbookView.ascx.cs" caret="595" fromTop="22" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:User controls/f:GuestbookView.ascx" caret="6120" fromTop="100" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/f:contact.aspx.cs" caret="3659" fromTop="98" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:WidgetContainer.ascx" caret="564" fromTop="15" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/f:recentenummers.aspx" caret="0" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostViewForList.ascx" caret="3197" fromTop="86" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:widgets/d:RecentPosts/f:widget.ascx" caret="0" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:widgets/d:RecentPosts/f:widget.ascx.cs" caret="1946" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:widgets/d:RecentPosts/f:edit.ascx" caret="0" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostView.ascx.cs" caret="981" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostView.ascx" caret="0" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:widgets/d:Twitter/f:widget.ascx" caret="344" fromTop="5" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:site.master" caret="64" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:styles/f:player.css" caret="1985" fromTop="31" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:SocialMedia.aspx.cs" caret="0" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Shoutbox.aspx.cs" caret="176" fromTop="7" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Themes.cshtml" caret="0" fromTop="0" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:site.master" caret="0" fromTop="0" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:menu.ascx" caret="0" fromTop="0" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:_Layout.cshtml" caret="0" fromTop="0" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx" caret="660" fromTop="14" />
+      <File id="9ED9914A-FB6E-4D21-8C71-9122E8C3076B/d:Web/d:Extensions/f:ManagedExtension.cs" caret="4385" fromTop="21" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:_menu.cshtml" caret="1223" fromTop="11" />
+      <File id="9ED9914A-FB6E-4D21-8C71-9122E8C3076B/d:Web/d:Extensions/f:ExtensionSettings.cs" caret="0" fromTop="0" />
       <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx.cs" caret="0" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx" caret="1115" fromTop="13" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:_menu.cshtml" caret="1022" fromTop="9" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Shoutbox.aspx" caret="603" fromTop="13" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:SocialMedia.aspx" caret="955" fromTop="19" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/f:audioplayer.aspx.cs" caret="809" fromTop="24" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="0" fromTop="0" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:js/f:jquery.peelback.js" caret="1874" fromTop="20" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27201" fromTop="29" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="6618" fromTop="29" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="1527" fromTop="32" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:menu.ascx.cs" caret="2161" fromTop="24" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:_menu.cshtml" caret="1448" fromTop="31" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:App_Code/d:Extensions/f:Bovenhoek.cs" caret="596" fromTop="19" />
+      <File id="9ED9914A-FB6E-4D21-8C71-9122E8C3076B/d:Web/d:Extensions/f:ExtensionManager.cs" caret="586" fromTop="20" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:js/f:superfish.js" caret="2730" fromTop="47" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx" caret="990" fromTop="11" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx.cs" caret="1082" fromTop="36" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:js/f:jquery.peelback.js" caret="1951" fromTop="20" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostViewFull.ascx" caret="369" fromTop="5" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostView.ascx" caret="0" fromTop="0" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostView.ascx.cs" caret="2160" fromTop="36" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostViewForListLast.ascx" caret="5750" fromTop="162" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostViewForList.ascx" caret="922" fromTop="0" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27082" fromTop="55" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/f:Web.Config" caret="2073" fromTop="31" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3969" fromTop="31" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="6766" fromTop="144" />
     </RecentFiles>
     <RecentEdits>
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx" caret="1620" fromTop="15" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:_menu.cshtml" caret="1719" fromTop="13" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx" caret="1244" fromTop="12" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx" caret="1115" fromTop="13" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:_menu.cshtml" caret="1022" fromTop="9" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Shoutbox.aspx" caret="921" fromTop="18" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Shoutbox.aspx" caret="817" fromTop="17" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:SocialMedia.aspx" caret="612" fromTop="13" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:SocialMedia.aspx" caret="955" fromTop="19" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="2925" fromTop="38" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="2410" fromTop="33" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/f:default.cshtml" caret="2883" fromTop="37" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="8297" fromTop="36" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3141" fromTop="17" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="259" fromTop="15" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3861" fromTop="31" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="4326" fromTop="35" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27201" fromTop="29" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3564" fromTop="28" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:js/f:jquery.peelback.js" caret="1874" fromTop="20" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3731" fromTop="35" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3471" fromTop="26" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="3715" fromTop="31" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="3716" fromTop="39" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="3299" fromTop="30" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="4433" fromTop="50" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="3807" fromTop="31" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="4162" fromTop="40" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="6618" fromTop="29" />
-      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="1570" fromTop="33" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Menu.ascx" caret="1199" fromTop="14" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx" caret="1044" fromTop="21" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx" caret="1490" fromTop="30" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx" caret="1763" fromTop="36" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx" caret="1900" fromTop="38" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx" caret="660" fromTop="14" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx.cs" caret="1295" fromTop="28" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:App_Code/d:Extensions/f:Bovenhoek.cs" caret="1080" fromTop="27" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:App_Code/d:Extensions/f:Bovenhoek.cs" caret="596" fromTop="19" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="2711" fromTop="46" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="309" fromTop="11" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="1597" fromTop="33" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:admin/d:Settings/f:Bovenhoek.aspx.cs" caret="1694" fromTop="45" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="1711" fromTop="30" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3132" fromTop="43" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="2752" fromTop="46" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="2493" fromTop="41" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:js/f:jquery.peelback.js" caret="4826" fromTop="34" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/d:js/f:jquery.peelback.js" caret="1951" fromTop="20" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="8521" fromTop="33" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostView.ascx.cs" caret="2177" fromTop="27" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostViewForListLast.ascx" caret="1392" fromTop="34" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:PostViewForList.ascx" caret="1393" fromTop="34" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master" caret="3968" fromTop="31" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27668" fromTop="46" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27421" fromTop="34" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27449" fromTop="33" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27190" fromTop="20" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:style.css" caret="27082" fromTop="55" />
+      <File id="F2B911A2-5051-4E85-AA93-AFEF10B1F320/d:themes/d:CarnavalRadio/f:cr.master.cs" caret="6249" fromTop="26" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -90,24 +90,24 @@
       <Item value="virtual" priority="1" />
       <Item value="override" priority="1" />
       <Item value="StringBuilder`0" priority="0" />
-      <Item value="new" priority="0" />
+      <Item value="new" priority="1" />
       <Item value="StringBuilder" priority="0" />
       <Item value="return" priority="0" />
       <Item value="string" priority="0" />
       <Item value="sbyte" priority="0" />
       <Item value="sb" priority="2" />
-      <Item value="if" priority="4" />
+      <Item value="if" priority="5" />
       <Item value="Security`0" priority="0" />
-      <Item value="this" priority="4" />
-      <Item value="BlogEngine" priority="0" />
-      <Item value="Core" priority="0" />
+      <Item value="this" priority="5" />
+      <Item value="BlogEngine" priority="1" />
+      <Item value="Core" priority="1" />
       <Item value="Post`0" priority="3" />
       <Item value="crGuestbook" priority="2" />
       <Item value="postView" priority="3" />
       <Item value="SinglePost" priority="0" />
       <Item value="CommentViewBase`0" priority="0" />
       <Item value="commentView" priority="1" />
-      <Item value="Utils`0" priority="0" />
+      <Item value="Utils`0" priority="1" />
       <Item value="false" priority="2" />
       <Item value="body" priority="2" />
       <Item value="foreach" priority="0" />
@@ -119,9 +119,9 @@
       <Item value="object" priority="0" />
       <Item value="EventArgs`0" priority="0" />
       <Item value="p" priority="3" />
-      <Item value="var" priority="0" />
+      <Item value="var" priority="1" />
       <Item value="l" priority="0" />
-      <Item value="using" priority="1" />
+      <Item value="using" priority="2" />
       <Item value="System" priority="1" />
       <Item value="Linq" priority="1" />
       <Item value="post" priority="0" />
@@ -133,17 +133,27 @@
       <Item value="max" priority="2" />
       <Item value="get" priority="0" />
       <Item value="x" priority="1" />
-      <Item value="else" priority="0" />
+      <Item value="else" priority="1" />
       <Item value="posts" priority="0" />
       <Item value="DefaultNumberOfPosts" priority="0" />
       <Item value="parentPage" priority="1" />
+      <Item value="icon32" priority="0" />
+      <Item value="ScriptBehaviorDescriptor`0" priority="0" />
+      <Item value="ClientScriptManager`0" priority="0" />
+      <Item value="Page" priority="1" />
+      <Item value="CustomScript" priority="0" />
+      <Item value="Settings" priority="0" />
+      <Item value="customScript" priority="2" />
+      <Item value="HtmlTitle`0" priority="0" />
+      <Item value="childPage" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="Empty" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Text.StringBuilder">
-      <Item value="Append`0" priority="1" />
+      <Item value="Append`0" priority="3" />
       <Item value="AppendFormat`0" priority="0" />
+      <Item value="ToString`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@BlogEngine.Core.Security">
       <Item value="AuthenticateUser`0" priority="0" />
@@ -182,11 +192,13 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@BlogEngine.Core.Utils">
       <Item value="AddJavaScriptInclude`0" priority="0" />
+      <Item value="AbsoluteWebRoot" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Length" priority="1" />
       <Item value="Trim`0" priority="0" />
       <Item value="Contains`0" priority="0" />
+      <Item value="ToLower`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@BlogEngine.Core.ServingLocation">
       <Item value="PostList" priority="1" />
@@ -209,7 +221,26 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:BlogEngine.Core.Page">
       <Item value="Description" priority="0" />
-      <Item value="Title" priority="0" />
+      <Item value="Title" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlLink">
+      <Item value="Href" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="RegisterClientScriptBlock`0" priority="0" />
+      <Item value="ClientScript" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ClientScriptManager">
+      <Item value="RegisterClientScriptBlock`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CrSite">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BlogEngine.Core.Web.Extensions.ExtensionSettings">
+      <Item value="GetSingleValue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

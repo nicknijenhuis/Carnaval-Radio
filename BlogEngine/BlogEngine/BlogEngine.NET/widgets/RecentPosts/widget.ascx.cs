@@ -161,7 +161,7 @@ namespace Widgets.RecentPosts
             }
             var max = Math.Min(posts.Count, numberOfPosts);
 
-            foreach (var post in posts.Take(max))
+            foreach (var post in posts.Take(max).Where(i=> !i.Tags.Contains("<Gastenboek>")))
             {
                 if (!post.IsVisibleToPublic)
                 {

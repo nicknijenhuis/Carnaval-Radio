@@ -1416,6 +1416,7 @@ div.albums ul li
     background-color:#eee;
     float:left;
     margin-left:20px;
+    margin-bottom:20px;
     border:1px solid #ccc;
 }
 div.albums ul li:hover
@@ -1638,7 +1639,7 @@ div#page-footer div.widget a.edit, div#page-footer div.widget a.move, div#page-f
     margin-right:5px;
 }
 
-.Tweet .TweetDate
+.Tweet .TweetDateweb
 {
     font-weight:bold;
     text-transform: capitalize;

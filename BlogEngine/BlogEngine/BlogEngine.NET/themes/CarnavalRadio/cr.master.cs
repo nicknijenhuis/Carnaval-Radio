@@ -7,6 +7,7 @@ using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
+using App_Code.Extensions;
 using BlogEngine.Core;
 using ExtensionMethods;
 using BlogEngine.Core.Web.Extensions;
@@ -65,22 +66,18 @@ public partial class CrSite : System.Web.UI.MasterPage
         SliderAndButtons.Visible = JScriptSliderAndButtons.Visible = !HideSliderAndButtons;
     }
 
-    private int i = 1;
     private string getHeaderImages()
     {
         //       <img src="<%=Utils.AbsoluteWebRoot %>Upload/Headers/1.jpg" />
         //<img src="<%=Utils.AbsoluteWebRoot %>Upload/Headers/2.jpg" />
+
+        var picasaAlbum = Picasa2.GetAlbums().SingleOrDefault(i => i.Accessor.AlbumTitle.ToLower() == "headers");
+
         var sb = new StringBuilder();
-        foreach (string s in Directory.GetFiles(Server.MapPath("./Upload/Headers/")))
+        foreach (var photo in picasaAlbum.AlbumContent)
         {
-            var f = new FileInfo(s);
-            if (f.Extension.Contains("jpg") || f.Extension.Contains("jpeg") || f.Extension.Contains("png"))
-            {
-                sb.AppendFormat(
-                    "<img src=\"{0}{1}{2}\" alt=\"slide {3}\" width=\"940\" height=\"289\" />",
-                    Utils.AbsoluteWebRoot, "Upload/Headers/", f.Name, i);
-                i++;
-            }
+            sb.AppendFormat(
+                "<img src=\"{0}\" alt=\"slide {1}\" width=\"940\" height=\"289\" />", photo.ImageSrc, photo.Title);
         }
 
         return sb.ToString();
@@ -145,8 +142,11 @@ public partial class CrSite : System.Web.UI.MasterPage
             var childPage in
                 BlogEngine.Core.Page.Pages.Where(p => p.Parent == parent.Id))
         {
-            sb.AppendFormat(
-                "<li class=\"page_item\"><a href=\"{0}\" title=\"{1}\">{1}</a>", getReplacement(childPage.Title) ?? childPage.RelativeLink, childPage.Title);
+            if(childPage.Title.ToLower() == "nu luisteren")
+            {sb.AppendFormat("<li class=\"page_item\"><a href=\"#\" onclick=\"OpenStreamPopup();\" title=\"{0}\">{0}</a>", childPage.Title);}
+            else
+            {sb.AppendFormat("<li class=\"page_item\"><a href=\"{0}\" title=\"{1}\">{1}</a>", getReplacement(childPage.Title) ?? childPage.RelativeLink, childPage.Title);}
+            
             if (childPage.HasChildPages)
             {
                 sb.Append(getChildPages(childPage));

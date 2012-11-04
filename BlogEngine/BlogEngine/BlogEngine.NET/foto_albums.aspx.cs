@@ -45,15 +45,15 @@ public partial class fotoalbums : BlogBasePage
         //RegisterClientScriptInclude(Utils.AbsoluteWebRoot + "Scripts/fotoalbum/jquery.transition.min.js");
         //RegisterClientScriptInclude(Utils.AbsoluteWebRoot + "Scripts/fotoalbum/OnLoad.js");
 
-        List<PicasaAlbum> albums = Picasa2.GetAlbums();
+        var albums = Picasa2.GetAlbums().FindAll(i=> !i.Accessor.AlbumTitle.ToLower().Contains("headers"));
 
         var sb = new StringBuilder();
         sb.AppendFormat("<div class=\"albums\">");
         sb.Append("<ul class=\"albumtiles\">");
         foreach (var picasaAlbum in albums)
         {
-            sb.AppendFormat("<li><a title=\"{1}\" href=\"{2}\"><p>{1}</p><img src=\"{0}\" alt=\"{1}\" title=\"{1}\" /></a></li>", 
-                picasaAlbum.ThumbNailURl, picasaAlbum.Accessor.Name, string.Format("foto_album.aspx?AlbumID={0}", picasaAlbum.Accessor.Id));
+            sb.AppendFormat("<li><a title=\"{1}\" href=\"{2}\"><p>{1}</p><img src=\"{0}\" alt=\"{1}\" title=\"{1}\" /></a></li>",
+                picasaAlbum.ThumbNailURl, picasaAlbum.Accessor.AlbumTitle, string.Format("foto_album.aspx?AlbumID={0}", picasaAlbum.Accessor.Id));
         }
         sb.Append("</ul>");
         sb.Append("</div>");

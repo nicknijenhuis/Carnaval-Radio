@@ -2,9 +2,7 @@
 <post>
   <author>Nick</author>
   <title>Test social media bericht twitter</title>
-  <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula nibh, consectetur vel sodales eu, iaculis in nisi. Nunc fringilla sem at velit facilisis bibendum. Ut sollicitudin pulvinar enim, eget semper ligula elementum in. Nam scelerisque eros non elit pharetra eu fringilla elit suscipit. Morbi mattis lacinia enim, id tempus lectus dignissim vel. Praesent vitae ante libero, quis dignissim elit. Quisque ornare turpis a massa viverra vulputate. 
-
-Aenean a turpis id quam vehicula pellentesque. Duis dignissim est non elit feugiat ut vulputate ante eleifend. Mauris fermentum, dolor suscipit tristique dictum, nisl nisl sodales metus, quis posuere libero tortor ut tellus. Cras in magna non erat interdum molestie. Pellentesque sit amet.
+  <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula nibh, consectetur vel sodales eu, iaculis in nisi. Nunc fringilla sem at velit facilisis bibendum. Ut sollicitudin pulvinar enim, eget 
 </description>
   <content>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula nibh, consectetur vel sodales eu, iaculis in nisi. Nunc fringilla sem at velit facilisis bibendum. Ut sollicitudin pulvinar enim, eget semper ligula elementum in. Nam scelerisque eros non elit pharetra eu fringilla elit suscipit. Morbi mattis lacinia enim, id tempus lectus dignissim vel. Praesent vitae ante libero, quis dignissim elit. Quisque ornare turpis a massa viverra vulputate. Aenean a turpis id quam vehicula pellentesque. Duis dignissim est non elit feugiat ut vulputate ante eleifend. Mauris fermentum, dolor suscipit tristique dictum, nisl nisl sodales metus, quis posuere libero tortor ut tellus.&lt;/p&gt;
 &lt;p style="text-align: justify; font-size: 11px; line-height: 14px; margin: 0px 0px 14px; padding: 0px; font-family: Arial, Helvetica, sans;"&gt;Cras in magna non erat interdum molestie. Pellentesque sit amet eros neque. Sed feugiat viverra neque vel bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam adipiscing convallis mauris, et eleifend dolor sagittis vel. Sed eget dui metus, at vulputate mauris. Nam bibendum, felis non viverra suscipit, augue sem aliquet eros, vel dignissim erat dui nec mauris. Nunc fringilla urna dapibus velit elementum fermentum. Suspendisse feugiat feugiat velit a convallis. Cras congue luctus orci, non lacinia elit fringilla pellentesque. Phasellus eu sodales tellus. Quisque lacinia libero orci. Duis sed sapien nunc, a molestie odio.&lt;/p&gt;
@@ -36,7 +34,7 @@ Aenean a turpis id quam vehicula pellentesque. Duis dignissim est non elit feugi
   <isdeleted>False</isdeleted>
   <iscommentsenabled>False</iscommentsenabled>
   <pubDate>2012-06-04 15:06:00</pubDate>
-  <lastModified>2012-06-21 16:36:02</lastModified>
+  <lastModified>2012-11-04 13:41:49</lastModified>
   <raters>0</raters>
   <rating>0</rating>
   <slug>Test-social-media-bericht</slug>
